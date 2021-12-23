@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: gun0912.ted:tedimagepicker:1.0.8@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/25624100dbace51f9e54a2b5cac8b87e/transformed/tedimagepicker-1.0.8/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/25624100dbace51f9e54a2b5cac8b87e/transformed/tedimagepicker-1.0.8/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/25624100dbace51f9e54a2b5cac8b87e/transformed/tedimagepicker-1.0.8/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/gun0912.ted/tedimagepicker/1.0.8/a2d81db6b3071bbcf27b5c8ee2dacb835454fa61/tedimagepicker-1.0.8-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/gun0912.ted/tedimagepicker/1.0.8/1d2eed09e765a6c9234de59e0b9cd782c001507e/tedimagepicker-1.0.8-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

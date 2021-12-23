@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <!-- Base application theme. -->
+    <!--&lt;!&ndash;<style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">&ndash;&gt;-->
+
+        <!--&lt;!&ndash;&lt;!&ndash; Customize your theme here. &ndash;&gt;&ndash;&gt;-->
+        <!--&lt;!&ndash;<item name="android:homeAsUpIndicator">@drawable/selector_btn_appbar_menu</item>&ndash;&gt;-->
+        <!--&lt;!&ndash;<item name="drawerArrowStyle">@style/DrawerArrowStyle</item>&ndash;&gt;-->
+        <!--&lt;!&ndash;<item name="windowActionBar">false</item>&ndash;&gt;-->
+        <!--&lt;!&ndash;<item name="windowNoTitle">true</item>&ndash;&gt;-->
+        <!--&lt;!&ndash;&lt;!&ndash; colorPrimary is used for the default action bar background &ndash;&gt;&ndash;&gt;-->
+        <!--&lt;!&ndash;<item name="windowActionModeOverlay">false</item>&ndash;&gt;-->
+        <!--&lt;!&ndash;<item name="colorPrimary">@color/primary</item>&ndash;&gt;-->
+        <!--&lt;!&ndash;<item name="colorPrimaryDark">@color/primaryDark</item>&ndash;&gt;-->
+        <!--&lt;!&ndash;<item name="android:textColorPrimary">@color/textPrimary</item>&ndash;&gt;-->
+    <!--&lt;!&ndash;</style>&ndash;&gt;-->
+<!--&lt;!&ndash;    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">-->
+        <!--&lt;!&ndash; Customize your theme here. &ndash;&gt;-->
+        <!--<item name="colorPrimary">@color/colorPrimary</item>-->
+        <!--<item name="colorPrimaryDark">@color/colorPrimaryDark</item>-->
+        <!--<item name="colorAccent">@color/colorAccent</item>-->
+        <!--<item name="windowActionModeOverlay">true</item>-->
+        <!--<item name="android:actionModeBackground">@color/blue_grey_600</item>-->
+    <!--</style>&ndash;&gt;-->
+
+    <!--<style name="Base.AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+
+        &lt;!&ndash; Customize your theme here. &ndash;&gt;
+        <item name="android:homeAsUpIndicator">@drawable/selector_btn_appbar_menu</item>
+        <item name="drawerArrowStyle">@style/DrawerArrowStyle</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        &lt;!&ndash; colorPrimary is used for the default action bar background &ndash;&gt;
+        <item name="windowActionModeOverlay">false</item>
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primaryDark</item>
+        <item name="android:textColorPrimary">@color/textPrimary</item>
+    </style>
+
+    <style name="Theme.DesignTheme" parent="AppTheme">
+    </style>
+
+    <style name="Base.Theme.DesignTheme" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <item name="colorPrimary">#673AB7</item>
+        <item name="colorPrimaryDark">#512DA8</item>
+        <item name="colorAccent">#FF4081</item>
+
+        <item name="contentInsetStart">0dp</item>
+        <item name="contentInsetEnd">0dp</item>
+        <item name="android:textColorPrimary">@android:color/white</item>
+        <item name="android:windowBackground">@android:color/white</item>
+        <item name="android:colorBackground">@android:color/white</item>
+    </style>-->
+
+    <!--<style name="AppTheme_TranslucentStatus" parent="Base.AppTheme">
+    </style>-->
+
+    <style name="Base.Theme.TranslucentStatus" parent="Theme.AppCompat.DayNight.NoActionBar">
+
+        <item name="colorPrimary">@android:color/transparent</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">#FF4081</item>
+
+        <item name="contentInsetStart">0dp</item>
+        <item name="contentInsetEnd">0dp</item>
+        <item name="android:textColorPrimary">@android:color/white</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorBackground">@android:color/transparent</item>
+    </style>
+
+
+
+    <style name="AppTheme.WithNavDrawer" />
+
+    <style name="NoAniNotitleBarTranslucent" parent="android:Theme">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation</item>
+    </style>
+
+    <style name="NotitleBarTranslucent" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+
+        <item name="android:colorBackgroundCacheHint">@null</item>
+    </style>
+
+    <style name="NotitleBarTranslucentSplash" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+
+        <item name="android:colorBackgroundCacheHint">@null</item>
+    </style>
+
+</resources>

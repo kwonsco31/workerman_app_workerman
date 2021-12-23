@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+                                                   
+
+    
+
+                 
+                       
+                            
+
+                 
+                             
+                                                        
+
+                 
+                            
+                             
+
+                 
+                                     
+                             
+
+           
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:tag="layout/layout_done_button_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+
+        <TextView
+            style="@style/TextAppearance.AppCompat.Subhead"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:tag="binding_1"           
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingStart="@dimen/ted_image_picker_done_button_horizontal_padding"
+            android:paddingTop="@dimen/ted_image_picker_done_button_vertical_padding"
+            android:paddingEnd="@dimen/ted_image_picker_done_button_horizontal_padding"
+            android:paddingBottom="@dimen/ted_image_picker_done_button_vertical_padding"
+                                  
+                                            
+                                                       
+            tools:text="완료" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:tag="binding_2"    
+                                                       />
+    </FrameLayout>
+         

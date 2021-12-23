@@ -1,0 +1,653 @@
+androidx/transition/R.java
+ androidx.transition.R
+ androidx.transition.R$attr
+ androidx.transition.R$color
+ androidx.transition.R$dimen
+ androidx.transition.R$drawable
+ androidx.transition.R$id
+ androidx.transition.R$integer
+ androidx.transition.R$layout
+ androidx.transition.R$string
+ androidx.transition.R$style
+ androidx.transition.R$styleable
+androidx/print/R.java
+ androidx.print.R
+com/workerman/app/ui/activity/base/SplashBaseActivity.java
+ com.workerman.app.ui.activity.base.SplashBaseActivity
+ com.workerman.app.ui.activity.base.SplashBaseActivity$1
+ com.workerman.app.ui.activity.base.SplashBaseActivity$2
+ com.workerman.app.ui.activity.base.SplashBaseActivity$3
+ com.workerman.app.ui.activity.base.SplashBaseActivity$4
+ com.workerman.app.ui.activity.base.SplashBaseActivity$CheckConnect
+androidx/lifecycle/livedata/core/R.java
+ androidx.lifecycle.livedata.core.R
+androidx/appcompat/resources/R.java
+ androidx.appcompat.resources.R
+ androidx.appcompat.resources.R$attr
+ androidx.appcompat.resources.R$color
+ androidx.appcompat.resources.R$dimen
+ androidx.appcompat.resources.R$drawable
+ androidx.appcompat.resources.R$id
+ androidx.appcompat.resources.R$integer
+ androidx.appcompat.resources.R$layout
+ androidx.appcompat.resources.R$string
+ androidx.appcompat.resources.R$style
+ androidx.appcompat.resources.R$styleable
+com/workerman/app/filter/ByteLengthFilter.java
+ com.workerman.app.filter.ByteLengthFilter
+com/workerman/app/ui/widget/WorkerManDialog.java
+ com.workerman.app.ui.widget.WorkerManDialog
+com/workerman/app/utils/Debug.java
+ com.workerman.app.utils.Debug
+androidx/arch/core/R.java
+ androidx.arch.core.R
+androidx/fragment/R.java
+ androidx.fragment.R
+ androidx.fragment.R$attr
+ androidx.fragment.R$color
+ androidx.fragment.R$dimen
+ androidx.fragment.R$drawable
+ androidx.fragment.R$id
+ androidx.fragment.R$integer
+ androidx.fragment.R$layout
+ androidx.fragment.R$string
+ androidx.fragment.R$style
+ androidx.fragment.R$styleable
+androidx/savedstate/R.java
+ androidx.savedstate.R
+com/workerman/app/Manifest.java
+ com.workerman.app.Manifest
+ com.workerman.app.Manifest$permission
+com/google/android/gms/measurement_base/R.java
+ com.google.android.gms.measurement_base.R
+com/google/android/gms/places_placereport/R.java
+ com.google.android.gms.places_placereport.R
+com/workerman/app/utils/FileCache.java
+ com.workerman.app.utils.FileCache
+androidx/asynclayoutinflater/R.java
+ androidx.asynclayoutinflater.R
+ androidx.asynclayoutinflater.R$attr
+ androidx.asynclayoutinflater.R$color
+ androidx.asynclayoutinflater.R$dimen
+ androidx.asynclayoutinflater.R$drawable
+ androidx.asynclayoutinflater.R$id
+ androidx.asynclayoutinflater.R$integer
+ androidx.asynclayoutinflater.R$layout
+ androidx.asynclayoutinflater.R$string
+ androidx.asynclayoutinflater.R$style
+ androidx.asynclayoutinflater.R$styleable
+com/google/firebase/R.java
+ com.google.firebase.R
+ com.google.firebase.R$attr
+ com.google.firebase.R$color
+ com.google.firebase.R$dimen
+ com.google.firebase.R$drawable
+ com.google.firebase.R$id
+ com.google.firebase.R$integer
+ com.google.firebase.R$layout
+ com.google.firebase.R$string
+ com.google.firebase.R$style
+ com.google.firebase.R$styleable
+com/workerman/app/iamportsdk/InicisWebViewClient.java
+ com.workerman.app.iamportsdk.InicisWebViewClient
+ com.workerman.app.iamportsdk.InicisWebViewClient$1
+com/workerman/app/utils/Utils.java
+ com.workerman.app.utils.Utils
+androidx/interpolator/R.java
+ androidx.interpolator.R
+androidx/core/R.java
+ androidx.core.R
+ androidx.core.R$attr
+ androidx.core.R$color
+ androidx.core.R$dimen
+ androidx.core.R$drawable
+ androidx.core.R$id
+ androidx.core.R$integer
+ androidx.core.R$layout
+ androidx.core.R$string
+ androidx.core.R$style
+ androidx.core.R$styleable
+com/google/android/gms/measurement/sdk/api/R.java
+ com.google.android.gms.measurement.sdk.api.R
+com/workerman/app/service/LocationUpdatesService.java
+ com.workerman.app.service.LocationUpdatesService
+ com.workerman.app.service.LocationUpdatesService$1
+ com.workerman.app.service.LocationUpdatesService$2
+ com.workerman.app.service.LocationUpdatesService$LocalBinder
+com/google/firebase/analytics/connector/R.java
+ com.google.firebase.analytics.connector.R
+com/google/android/gms/common/R.java
+ com.google.android.gms.common.R
+ com.google.android.gms.common.R$integer
+ com.google.android.gms.common.R$string
+com/google/android/gms/base/R.java
+ com.google.android.gms.base.R
+ com.google.android.gms.base.R$attr
+ com.google.android.gms.base.R$color
+ com.google.android.gms.base.R$drawable
+ com.google.android.gms.base.R$id
+ com.google.android.gms.base.R$string
+ com.google.android.gms.base.R$styleable
+com/workerman/app/net/APIService.java
+ com.workerman.app.net.APIService
+androidx/databinding/library/baseAdapters/R.java
+ androidx.databinding.library.baseAdapters.R
+ androidx.databinding.library.baseAdapters.R$id
+com/workerman/app/utils/ValidationUtils.java
+ com.workerman.app.utils.ValidationUtils
+androidx/multidex/R.java
+ androidx.multidex.R
+com/workerman/app/manager/FileManager.java
+ com.workerman.app.manager.FileManager
+com/bumptech/glide/R.java
+ com.bumptech.glide.R
+ com.bumptech.glide.R$attr
+ com.bumptech.glide.R$bool
+ com.bumptech.glide.R$color
+ com.bumptech.glide.R$dimen
+ com.bumptech.glide.R$drawable
+ com.bumptech.glide.R$id
+ com.bumptech.glide.R$integer
+ com.bumptech.glide.R$layout
+ com.bumptech.glide.R$string
+ com.bumptech.glide.R$style
+ com.bumptech.glide.R$styleable
+com/google/firebase/messaging/R.java
+ com.google.firebase.messaging.R
+ com.google.firebase.messaging.R$string
+com/workerman/app/vo/WifiInformation.java
+ com.workerman.app.vo.WifiInformation
+com/bumptech/glide/gifdecoder/R.java
+ com.bumptech.glide.gifdecoder.R
+androidx/databinding/library/R.java
+ androidx.databinding.library.R
+ androidx.databinding.library.R$id
+com/workerman/app/utils/DisplayUtil.java
+ com.workerman.app.utils.DisplayUtil
+com/workerman/app/WorkerManApplication.java
+ com.workerman.app.WorkerManApplication
+androidx/swiperefreshlayout/R.java
+ androidx.swiperefreshlayout.R
+ androidx.swiperefreshlayout.R$attr
+ androidx.swiperefreshlayout.R$color
+ androidx.swiperefreshlayout.R$dimen
+ androidx.swiperefreshlayout.R$drawable
+ androidx.swiperefreshlayout.R$id
+ androidx.swiperefreshlayout.R$integer
+ androidx.swiperefreshlayout.R$layout
+ androidx.swiperefreshlayout.R$string
+ androidx.swiperefreshlayout.R$style
+ androidx.swiperefreshlayout.R$styleable
+androidx/appcompat/R.java
+ androidx.appcompat.R
+ androidx.appcompat.R$anim
+ androidx.appcompat.R$attr
+ androidx.appcompat.R$bool
+ androidx.appcompat.R$color
+ androidx.appcompat.R$dimen
+ androidx.appcompat.R$drawable
+ androidx.appcompat.R$id
+ androidx.appcompat.R$integer
+ androidx.appcompat.R$interpolator
+ androidx.appcompat.R$layout
+ androidx.appcompat.R$string
+ androidx.appcompat.R$style
+ androidx.appcompat.R$styleable
+com/tedpark/tedonactivityresult/rx2/R.java
+ com.tedpark.tedonactivityresult.rx2.R
+ com.tedpark.tedonactivityresult.rx2.R$anim
+ com.tedpark.tedonactivityresult.rx2.R$attr
+ com.tedpark.tedonactivityresult.rx2.R$bool
+ com.tedpark.tedonactivityresult.rx2.R$color
+ com.tedpark.tedonactivityresult.rx2.R$dimen
+ com.tedpark.tedonactivityresult.rx2.R$drawable
+ com.tedpark.tedonactivityresult.rx2.R$id
+ com.tedpark.tedonactivityresult.rx2.R$integer
+ com.tedpark.tedonactivityresult.rx2.R$layout
+ com.tedpark.tedonactivityresult.rx2.R$string
+ com.tedpark.tedonactivityresult.rx2.R$style
+ com.tedpark.tedonactivityresult.rx2.R$styleable
+androidx/legacy/coreui/R.java
+ androidx.legacy.coreui.R
+ androidx.legacy.coreui.R$attr
+ androidx.legacy.coreui.R$color
+ androidx.legacy.coreui.R$dimen
+ androidx.legacy.coreui.R$drawable
+ androidx.legacy.coreui.R$id
+ androidx.legacy.coreui.R$integer
+ androidx.legacy.coreui.R$layout
+ androidx.legacy.coreui.R$string
+ androidx.legacy.coreui.R$style
+ androidx.legacy.coreui.R$styleable
+com/workerman/app/utils/Schema.java
+ com.workerman.app.utils.Schema
+ com.workerman.app.utils.Schema$BoardIds
+ com.workerman.app.utils.Schema$TransactionFrag
+androidx/customview/R.java
+ androidx.customview.R
+ androidx.customview.R$attr
+ androidx.customview.R$color
+ androidx.customview.R$dimen
+ androidx.customview.R$drawable
+ androidx.customview.R$id
+ androidx.customview.R$integer
+ androidx.customview.R$layout
+ androidx.customview.R$string
+ androidx.customview.R$style
+ androidx.customview.R$styleable
+com/tedpark/tedpermission/rx2/R.java
+ com.tedpark.tedpermission.rx2.R
+ com.tedpark.tedpermission.rx2.R$anim
+ com.tedpark.tedpermission.rx2.R$attr
+ com.tedpark.tedpermission.rx2.R$bool
+ com.tedpark.tedpermission.rx2.R$color
+ com.tedpark.tedpermission.rx2.R$dimen
+ com.tedpark.tedpermission.rx2.R$drawable
+ com.tedpark.tedpermission.rx2.R$id
+ com.tedpark.tedpermission.rx2.R$integer
+ com.tedpark.tedpermission.rx2.R$layout
+ com.tedpark.tedpermission.rx2.R$string
+ com.tedpark.tedpermission.rx2.R$style
+ com.tedpark.tedpermission.rx2.R$styleable
+com/google/firebase/iid/R.java
+ com.google.firebase.iid.R
+com/google/android/gms/stats/R.java
+ com.google.android.gms.stats.R
+androidx/legacy/coreutils/R.java
+ androidx.legacy.coreutils.R
+ androidx.legacy.coreutils.R$attr
+ androidx.legacy.coreutils.R$color
+ androidx.legacy.coreutils.R$dimen
+ androidx.legacy.coreutils.R$drawable
+ androidx.legacy.coreutils.R$id
+ androidx.legacy.coreutils.R$integer
+ androidx.legacy.coreutils.R$layout
+ androidx.legacy.coreutils.R$string
+ androidx.legacy.coreutils.R$style
+ androidx.legacy.coreutils.R$styleable
+com/workerman/app/ui/widget/WorkerManSelectDialog.java
+ com.workerman.app.ui.widget.WorkerManSelectDialog
+ com.workerman.app.ui.widget.WorkerManSelectDialog$1
+ com.workerman.app.ui.widget.WorkerManSelectDialog$2
+ com.workerman.app.ui.widget.WorkerManSelectDialog$OnItemClickListener
+com/gun0912/tedonactivityresult/R.java
+ com.gun0912.tedonactivityresult.R
+ com.gun0912.tedonactivityresult.R$anim
+ com.gun0912.tedonactivityresult.R$attr
+ com.gun0912.tedonactivityresult.R$bool
+ com.gun0912.tedonactivityresult.R$color
+ com.gun0912.tedonactivityresult.R$dimen
+ com.gun0912.tedonactivityresult.R$drawable
+ com.gun0912.tedonactivityresult.R$id
+ com.gun0912.tedonactivityresult.R$integer
+ com.gun0912.tedonactivityresult.R$layout
+ com.gun0912.tedonactivityresult.R$string
+ com.gun0912.tedonactivityresult.R$style
+ com.gun0912.tedonactivityresult.R$styleable
+com/google/android/gms/measurement/sdk/R.java
+ com.google.android.gms.measurement.sdk.R
+com/firebase/jobdispatcher/R.java
+ com.firebase.jobdispatcher.R
+com/google/firebase/firebase_core/R.java
+ com.google.firebase.firebase_core.R
+com/workerman/app/ui/widget/TouchImageView.java
+ com.workerman.app.ui.widget.TouchImageView
+ com.workerman.app.ui.widget.TouchImageView$1
+ com.workerman.app.ui.widget.TouchImageView$CompatScroller
+ com.workerman.app.ui.widget.TouchImageView$DoubleTapZoom
+ com.workerman.app.ui.widget.TouchImageView$Fling
+ com.workerman.app.ui.widget.TouchImageView$GestureListener
+ com.workerman.app.ui.widget.TouchImageView$OnTouchImageViewListener
+ com.workerman.app.ui.widget.TouchImageView$PrivateOnTouchListener
+ com.workerman.app.ui.widget.TouchImageView$ScaleListener
+ com.workerman.app.ui.widget.TouchImageView$State
+ com.workerman.app.ui.widget.TouchImageView$ZoomVariables
+com/workerman/app/ui/widget/ImageScaleView.java
+ com.workerman.app.ui.widget.ImageScaleView
+ com.workerman.app.ui.widget.ImageScaleView$1
+ com.workerman.app.ui.widget.ImageScaleView$MatrixCropType
+com/google/firebase/iid/internal/R.java
+ com.google.firebase.iid.internal.R
+butterknife/R.java
+ butterknife.R
+ butterknife.R$attr
+ butterknife.R$color
+ butterknife.R$dimen
+ butterknife.R$drawable
+ butterknife.R$id
+ butterknife.R$integer
+ butterknife.R$layout
+ butterknife.R$string
+ butterknife.R$style
+ butterknife.R$styleable
+gun0912/tedimagepicker/R.java
+ gun0912.tedimagepicker.R
+ gun0912.tedimagepicker.R$anim
+ gun0912.tedimagepicker.R$animator
+ gun0912.tedimagepicker.R$attr
+ gun0912.tedimagepicker.R$bool
+ gun0912.tedimagepicker.R$color
+ gun0912.tedimagepicker.R$dimen
+ gun0912.tedimagepicker.R$drawable
+ gun0912.tedimagepicker.R$id
+ gun0912.tedimagepicker.R$integer
+ gun0912.tedimagepicker.R$interpolator
+ gun0912.tedimagepicker.R$layout
+ gun0912.tedimagepicker.R$plurals
+ gun0912.tedimagepicker.R$string
+ gun0912.tedimagepicker.R$style
+ gun0912.tedimagepicker.R$styleable
+ gun0912.tedimagepicker.R$xml
+androidx/localbroadcastmanager/R.java
+ androidx.localbroadcastmanager.R
+com/workerman/app/utils/BitmapUtils.java
+ com.workerman.app.utils.BitmapUtils
+com/workerman/app/ui/activity/base/BaseActivity.java
+ com.workerman.app.ui.activity.base.BaseActivity
+ com.workerman.app.ui.activity.base.BaseActivity$1
+ com.workerman.app.ui.activity.base.BaseActivity$2
+ com.workerman.app.ui.activity.base.BaseActivity$3
+ com.workerman.app.ui.activity.base.BaseActivity$4
+ com.workerman.app.ui.activity.base.BaseActivity$CheckConnect
+androidx/viewpager2/R.java
+ androidx.viewpager2.R
+ androidx.viewpager2.R$attr
+ androidx.viewpager2.R$color
+ androidx.viewpager2.R$dimen
+ androidx.viewpager2.R$drawable
+ androidx.viewpager2.R$id
+ androidx.viewpager2.R$integer
+ androidx.viewpager2.R$layout
+ androidx.viewpager2.R$string
+ androidx.viewpager2.R$style
+ androidx.viewpager2.R$styleable
+com/google/android/gms/ads_identifier/R.java
+ com.google.android.gms.ads_identifier.R
+com/workerman/app/R.java
+ com.workerman.app.R
+ com.workerman.app.R$anim
+ com.workerman.app.R$animator
+ com.workerman.app.R$array
+ com.workerman.app.R$attr
+ com.workerman.app.R$bool
+ com.workerman.app.R$color
+ com.workerman.app.R$dimen
+ com.workerman.app.R$drawable
+ com.workerman.app.R$id
+ com.workerman.app.R$integer
+ com.workerman.app.R$interpolator
+ com.workerman.app.R$layout
+ com.workerman.app.R$mipmap
+ com.workerman.app.R$plurals
+ com.workerman.app.R$string
+ com.workerman.app.R$style
+ com.workerman.app.R$styleable
+ com.workerman.app.R$xml
+com/workerman/app/ui/widget/CustomProgressBar.java
+ com.workerman.app.ui.widget.CustomProgressBar
+androidx/vectordrawable/R.java
+ androidx.vectordrawable.R
+ androidx.vectordrawable.R$attr
+ androidx.vectordrawable.R$color
+ androidx.vectordrawable.R$dimen
+ androidx.vectordrawable.R$drawable
+ androidx.vectordrawable.R$id
+ androidx.vectordrawable.R$integer
+ androidx.vectordrawable.R$layout
+ androidx.vectordrawable.R$string
+ androidx.vectordrawable.R$style
+ androidx.vectordrawable.R$styleable
+com/workerman/app/ui/widget/NonSwipeViewPager.java
+ com.workerman.app.ui.widget.NonSwipeViewPager
+com/workerman/app/utils/RealPathUtil.java
+ com.workerman.app.utils.RealPathUtil
+com/google/android/gms/measurement/api/R.java
+ com.google.android.gms.measurement.api.R
+com/workerman/app/ui/widget/ExtendedViewPager.java
+ com.workerman.app.ui.widget.ExtendedViewPager
+com/workerman/app/utils/Tools.java
+ com.workerman.app.utils.Tools
+ com.workerman.app.utils.Tools$1
+ com.workerman.app.utils.Tools$2
+ com.workerman.app.utils.Tools$3
+com/workerman/app/manager/ConfigManager.java
+ com.workerman.app.manager.ConfigManager
+com/workerman/app/utils/CommonUtils.java
+ com.workerman.app.utils.CommonUtils
+ com.workerman.app.utils.CommonUtils$Resolution
+androidx/activity/R.java
+ androidx.activity.R
+ androidx.activity.R$attr
+ androidx.activity.R$color
+ androidx.activity.R$dimen
+ androidx.activity.R$drawable
+ androidx.activity.R$id
+ androidx.activity.R$integer
+ androidx.activity.R$layout
+ androidx.activity.R$string
+ androidx.activity.R$style
+ androidx.activity.R$styleable
+com/workerman/app/utils/ShaPasswordEncoder.java
+ com.workerman.app.utils.ShaPasswordEncoder
+androidx/recyclerview/R.java
+ androidx.recyclerview.R
+ androidx.recyclerview.R$attr
+ androidx.recyclerview.R$color
+ androidx.recyclerview.R$dimen
+ androidx.recyclerview.R$drawable
+ androidx.recyclerview.R$id
+ androidx.recyclerview.R$integer
+ androidx.recyclerview.R$layout
+ androidx.recyclerview.R$string
+ androidx.recyclerview.R$style
+ androidx.recyclerview.R$styleable
+com/google/firebase/firebase_analytics/R.java
+ com.google.firebase.firebase_analytics.R
+androidx/drawerlayout/R.java
+ androidx.drawerlayout.R
+ androidx.drawerlayout.R$attr
+ androidx.drawerlayout.R$color
+ androidx.drawerlayout.R$dimen
+ androidx.drawerlayout.R$drawable
+ androidx.drawerlayout.R$id
+ androidx.drawerlayout.R$integer
+ androidx.drawerlayout.R$layout
+ androidx.drawerlayout.R$string
+ androidx.drawerlayout.R$style
+ androidx.drawerlayout.R$styleable
+com/workerman/app/DataBindingInfo.java
+ com.workerman.app.DataBindingInfo
+com/workerman/app/net/APICallService.java
+ com.workerman.app.net.APICallService
+ com.workerman.app.net.APICallService$1
+com/workerman/app/net/model/ResBaseItem.java
+ com.workerman.app.net.model.ResBaseItem
+com/workerman/app/net/ResponseCheckServer.java
+ com.workerman.app.net.ResponseCheckServer
+ com.workerman.app.net.ResponseCheckServer$CheckServer
+com/workerman/app/utils/DeviceUuidFactory.java
+ com.workerman.app.utils.DeviceUuidFactory
+androidx/versionedparcelable/R.java
+ androidx.versionedparcelable.R
+com/workerman/app/fcm/WorkerManFirebaseMessagingService.java
+ com.workerman.app.fcm.WorkerManFirebaseMessagingService
+ com.workerman.app.fcm.WorkerManFirebaseMessagingService$1
+ com.workerman.app.fcm.WorkerManFirebaseMessagingService$2
+com/workerman/app/manager/PrefManager.java
+ com.workerman.app.manager.PrefManager
+com/workerman/app/ui/activity/ActWebView.java
+ com.workerman.app.ui.activity.ActWebView
+ com.workerman.app.ui.activity.ActWebView$1
+ com.workerman.app.ui.activity.ActWebView$2
+ com.workerman.app.ui.activity.ActWebView$3
+ com.workerman.app.ui.activity.ActWebView$CountTimer
+ com.workerman.app.ui.activity.ActWebView$GingerbreadWebViewChrome
+ com.workerman.app.ui.activity.ActWebView$GingerbreadWebViewChrome$1
+ com.workerman.app.ui.activity.ActWebView$GingerbreadWebViewChrome$2
+ com.workerman.app.ui.activity.ActWebView$GingerbreadWebViewChrome$3
+ com.workerman.app.ui.activity.ActWebView$GingerbreadWebViewChrome$4
+ com.workerman.app.ui.activity.ActWebView$GingerbreadWebViewChrome$5
+ com.workerman.app.ui.activity.ActWebView$GingerbreadWebViewClient
+ com.workerman.app.ui.activity.ActWebView$XScrollDetector
+androidx/lifecycle/viewmodel/R.java
+ androidx.lifecycle.viewmodel.R
+com/workerman/app/fcm/WorkerManJobService.java
+ com.workerman.app.fcm.WorkerManJobService
+com/workerman/app/iamportsdk/GpsTracker.java
+ com.workerman.app.iamportsdk.GpsTracker
+com/alexvasilkov/gestures/R.java
+ com.alexvasilkov.gestures.R
+ com.alexvasilkov.gestures.R$attr
+ com.alexvasilkov.gestures.R$id
+ com.alexvasilkov.gestures.R$styleable
+androidx/cursoradapter/R.java
+ androidx.cursoradapter.R
+androidx/cardview/R.java
+ androidx.cardview.R
+ androidx.cardview.R$attr
+ androidx.cardview.R$color
+ androidx.cardview.R$dimen
+ androidx.cardview.R$style
+ androidx.cardview.R$styleable
+androidx/coordinatorlayout/R.java
+ androidx.coordinatorlayout.R
+ androidx.coordinatorlayout.R$attr
+ androidx.coordinatorlayout.R$color
+ androidx.coordinatorlayout.R$dimen
+ androidx.coordinatorlayout.R$drawable
+ androidx.coordinatorlayout.R$id
+ androidx.coordinatorlayout.R$integer
+ androidx.coordinatorlayout.R$layout
+ androidx.coordinatorlayout.R$string
+ androidx.coordinatorlayout.R$style
+ androidx.coordinatorlayout.R$styleable
+androidx/lifecycle/livedata/R.java
+ androidx.lifecycle.livedata.R
+com/google/firebase/measurement_impl/R.java
+ com.google.firebase.measurement_impl.R
+androidx/lifecycle/R.java
+ androidx.lifecycle.R
+androidx/documentfile/R.java
+ androidx.documentfile.R
+com/workerman/app/utils/ImageUtil.java
+ com.workerman.app.utils.ImageUtil
+butterknife/runtime/R.java
+ butterknife.runtime.R
+ butterknife.runtime.R$attr
+ butterknife.runtime.R$color
+ butterknife.runtime.R$dimen
+ butterknife.runtime.R$drawable
+ butterknife.runtime.R$id
+ butterknife.runtime.R$integer
+ butterknife.runtime.R$layout
+ butterknife.runtime.R$string
+ butterknife.runtime.R$style
+ butterknife.runtime.R$styleable
+androidx/loader/R.java
+ androidx.loader.R
+ androidx.loader.R$attr
+ androidx.loader.R$color
+ androidx.loader.R$dimen
+ androidx.loader.R$drawable
+ androidx.loader.R$id
+ androidx.loader.R$integer
+ androidx.loader.R$layout
+ androidx.loader.R$string
+ androidx.loader.R$style
+ androidx.loader.R$styleable
+com/workerman/app/utils/MaterialColor.java
+ com.workerman.app.utils.MaterialColor
+com/google/android/material/R.java
+ com.google.android.material.R
+ com.google.android.material.R$anim
+ com.google.android.material.R$animator
+ com.google.android.material.R$attr
+ com.google.android.material.R$bool
+ com.google.android.material.R$color
+ com.google.android.material.R$dimen
+ com.google.android.material.R$drawable
+ com.google.android.material.R$id
+ com.google.android.material.R$integer
+ com.google.android.material.R$interpolator
+ com.google.android.material.R$layout
+ com.google.android.material.R$plurals
+ com.google.android.material.R$string
+ com.google.android.material.R$style
+ com.google.android.material.R$styleable
+com/workerman/app/utils/DateUtil.java
+ com.workerman.app.utils.DateUtil
+androidx/constraintlayout/widget/R.java
+ androidx.constraintlayout.widget.R
+ androidx.constraintlayout.widget.R$attr
+ androidx.constraintlayout.widget.R$id
+ androidx.constraintlayout.widget.R$styleable
+androidx/slidingpanelayout/R.java
+ androidx.slidingpanelayout.R
+ androidx.slidingpanelayout.R$attr
+ androidx.slidingpanelayout.R$color
+ androidx.slidingpanelayout.R$dimen
+ androidx.slidingpanelayout.R$drawable
+ androidx.slidingpanelayout.R$id
+ androidx.slidingpanelayout.R$integer
+ androidx.slidingpanelayout.R$layout
+ androidx.slidingpanelayout.R$string
+ androidx.slidingpanelayout.R$style
+ androidx.slidingpanelayout.R$styleable
+com/workerman/app/utils/TextViewUtils.java
+ com.workerman.app.utils.TextViewUtils
+com/workerman/app/vo/WorkerMemberPushData.java
+ com.workerman.app.vo.WorkerMemberPushData
+com/workerman/app/Defines.java
+ com.workerman.app.Defines
+com/google/firebase/measurement/R.java
+ com.google.firebase.measurement.R
+com/workerman/app/net/APIClient.java
+ com.workerman.app.net.APIClient
+ com.workerman.app.net.APIClient$1
+com/gun0912/tedpermission/R.java
+ com.gun0912.tedpermission.R
+ com.gun0912.tedpermission.R$anim
+ com.gun0912.tedpermission.R$attr
+ com.gun0912.tedpermission.R$bool
+ com.gun0912.tedpermission.R$color
+ com.gun0912.tedpermission.R$dimen
+ com.gun0912.tedpermission.R$drawable
+ com.gun0912.tedpermission.R$id
+ com.gun0912.tedpermission.R$integer
+ com.gun0912.tedpermission.R$layout
+ com.gun0912.tedpermission.R$string
+ com.gun0912.tedpermission.R$style
+ com.gun0912.tedpermission.R$styleable
+androidx/viewpager/R.java
+ androidx.viewpager.R
+ androidx.viewpager.R$attr
+ androidx.viewpager.R$color
+ androidx.viewpager.R$dimen
+ androidx.viewpager.R$drawable
+ androidx.viewpager.R$id
+ androidx.viewpager.R$integer
+ androidx.viewpager.R$layout
+ androidx.viewpager.R$string
+ androidx.viewpager.R$style
+ androidx.viewpager.R$styleable
+com/workerman/app/ui/activity/ActSplash.java
+ com.workerman.app.ui.activity.ActSplash
+ com.workerman.app.ui.activity.ActSplash$1
+ com.workerman.app.ui.activity.ActSplash$2
+ com.workerman.app.ui.activity.ActSplash$3
+ com.workerman.app.ui.activity.ActSplash$4
+ com.workerman.app.ui.activity.ActSplash$5
+ com.workerman.app.ui.activity.ActSplash$6
+ com.workerman.app.ui.activity.ActSplash$CountTimer
+com/workerman/app/BuildConfig.java
+ com.workerman.app.BuildConfig
+com/google/android/gms/location/R.java
+ com.google.android.gms.location.R
+com/google/android/gms/tasks/R.java
+ com.google.android.gms.tasks.R
+com/workerman/app/iamportsdk/PaymentScheme.java
+ com.workerman.app.iamportsdk.PaymentScheme
+io/reactivex/android/R.java
+ io.reactivex.android.R
+com/workerman/app/service/GpsUtils.java
+ com.workerman.app.service.GpsUtils

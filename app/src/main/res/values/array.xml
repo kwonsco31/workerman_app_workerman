@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <string-array name="arrLanguage">
+        <item>한국어</item>
+        <item>English</item>
+        <item>中文</item>
+        <item>日本語</item>
+    </string-array>
+
+    <string-array name="arrSort">
+        <item>Ranking</item>
+        <item>Name</item>
+    </string-array>
+
+    <string-array name="arrSex">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
+    <string-array name="arrCounsel">
+        <item>Earn Votes Error</item>
+        <item>Authentication E-mail Error</item>
+        <item>Block/Unblock Account</item>
+        <item>System Error</item>
+        <item>Improvement/Suggestion</item>
+        <item>Other</item>
+    </string-array>
+</resources>

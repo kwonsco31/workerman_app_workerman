@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+                                                                   
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/black"
+        android:orientation="vertical" android:tag="layout/activity_zoom_out_0" xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <com.alexvasilkov.gestures.views.GestureImageView
+            android:id="@+id/iv_media"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitCenter" />
+    </LinearLayout>
+         

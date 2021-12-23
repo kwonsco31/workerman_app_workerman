@@ -1,0 +1,64 @@
+{
+  "project_info": {
+    "project_number": "595056718261",
+    "firebase_url": "https://workerman-40c09.firebaseio.com",
+    "project_id": "workerman-40c09",
+    "storage_bucket": "workerman-40c09.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+          "mobilesdk_app_id": "1:595056718261:android:4daa4b13d72617a3",
+          "android_client_info": {
+          "package_name": "com.workerman.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "595056718261-9dcio04dkh43parfiet2r80n4rbnq786.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.workerman.app",
+            "certificate_hash": "d2e27a2e4e347742aec52e8c514194c7575e9c70"
+          }
+        },
+        {
+          "client_id": "595056718261-oiars05b4m85p89s05rsn2j2q224jc27.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.workerman.app",
+            "certificate_hash": "69c3145b6345950ddf5695ec8a9041f1e5001148"
+          }
+        },
+        {
+          "client_id": "595056718261-04d5medplu4df366ecseb09v3d4v07dt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.workerman.app",
+            "certificate_hash": "7e5387bcdbc755bc8c694d287be4a7b9f291b57c"
+          }
+        },
+        {
+          "client_id": "595056718261-mce1q8timede9ltdc461ca6s70kpea8f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAKpcOst4_mc91dML_m6VXgmBCweba48_E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "595056718261-mce1q8timede9ltdc461ca6s70kpea8f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

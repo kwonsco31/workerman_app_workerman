@@ -1,0 +1,390 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.workerman.app"
+4    android:versionCode="101"
+5    android:versionName="2.1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml:6:5-67
+11-->C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml:6:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml:7:5-79
+12-->C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml:7:22-76
+13    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+13-->C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml:8:5-79
+13-->C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml:8:22-76
+14    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+14-->C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml:9:5-76
+14-->C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml:9:22-73
+15    <uses-permission android:name="android.permission.WAKE_LOCK" />
+15-->C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml:10:5-68
+15-->C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml:10:22-65
+16    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+16-->C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml:11:5-75
+16-->C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml:11:22-72
+17    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+17-->C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml:12:5-80
+17-->C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml:12:22-77
+18    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+18-->C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml:13:5-81
+18-->C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml:13:22-78
+19    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+19-->C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml:14:5-82
+19-->C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml:14:22-79
+20    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" /> <!-- 위치정보가져오기 -->
+20-->C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml:16:5-81
+20-->C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml:16:22-78
+21    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+21-->C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml:17:5-85
+21-->C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml:17:22-82
+22    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+22-->C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml:18:5-77
+22-->C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml:18:22-74
+23
+24    <uses-feature android:name="android.hardware.location.gps" />
+24-->C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml:19:5-66
+24-->C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml:19:19-63
+25
+26    <permission
+26-->C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml:21:5-23:47
+27        android:name="com.workerman.app.permission.C2D_MESSAGE"
+27-->C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml:22:9-64
+28        android:protectionLevel="signature" />
+28-->C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml:23:9-44
+29
+30    <uses-permission android:name="com.workerman.app.permission.C2D_MESSAGE" />
+30-->C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml:24:5-80
+30-->C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml:24:22-77
+31
+32    <supports-screens
+32-->C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml:26:5-30:39
+33        android:anyDensity="true"
+33-->C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml:27:9-34
+34        android:largeScreens="true"
+34-->C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml:28:9-36
+35        android:normalScreens="true"
+35-->C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml:29:9-37
+36        android:smallScreens="true" />
+36-->C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml:30:9-36
+37
+38    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+38-->[com.google.android.gms:play-services-measurement:17.2.0] C:\Users\dwkwon\.gradle\caches\transforms-3\6cfaffc05d9d0fe0efff6b9a57ba0190\transformed\play-services-measurement-17.2.0\AndroidManifest.xml:26:5-110
+38-->[com.google.android.gms:play-services-measurement:17.2.0] C:\Users\dwkwon\.gradle\caches\transforms-3\6cfaffc05d9d0fe0efff6b9a57ba0190\transformed\play-services-measurement-17.2.0\AndroidManifest.xml:26:22-107
+39
+40    <application
+40-->C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml:32:5-96:19
+41        android:name="com.workerman.app.WorkerManApplication"
+41-->C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml:33:9-62
+42        android:allowBackup="true"
+42-->C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml:35:9-35
+43        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+43-->[androidx.core:core:1.1.0-beta01] C:\Users\dwkwon\.gradle\caches\transforms-3\0ccb7a60656095610ec5032beca4e1ed\transformed\core-1.1.0-beta01\AndroidManifest.xml:22:18-86
+44        android:icon="@mipmap/ic_launcher"
+44-->C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml:36:9-43
+45        android:label="@string/app_name_worker_man"
+45-->C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml:37:9-52
+46        android:largeHeap="true"
+46-->C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml:38:9-33
+47        android:requestLegacyExternalStorage="true"
+47-->C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml:34:9-52
+48        android:theme="@style/AppTheme"
+48-->C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml:40:9-40
+49        android:usesCleartextTraffic="true" >
+49-->C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml:39:9-44
+50        <activity
+50-->C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml:41:9-48:20
+51            android:name="com.workerman.app.ui.activity.ActSplash"
+51-->C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml:42:13-67
+52            android:screenOrientation="portrait" >
+52-->C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml:43:13-49
+53            <intent-filter>
+53-->C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml:44:13-47:29
+54                <action android:name="android.intent.action.MAIN" />
+54-->C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml:45:17-69
+54-->C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml:45:25-66
+55
+56                <category android:name="android.intent.category.LAUNCHER" />
+56-->C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml:46:17-77
+56-->C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml:46:27-74
+57            </intent-filter>
+58        </activity>
+59        <activity
+59-->C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml:49:9-63:20
+60            android:name="com.workerman.app.ui.activity.ActWebView"
+60-->C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml:50:13-68
+61            android:configChanges="orientation|screenSize"
+61-->C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml:53:13-59
+62            android:launchMode="singleTask"
+62-->C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml:51:13-44
+63            android:screenOrientation="portrait"
+63-->C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml:52:13-49
+64            android:windowSoftInputMode="adjustResize" >
+64-->C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml:54:13-55
+65            <intent-filter>
+65-->C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml:55:13-62:29
+66                <action android:name="android.intent.action.VIEW" />
+66-->C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml:56:17-69
+66-->C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml:56:25-66
+67
+68                <category android:name="android.intent.category.DEFAULT" />
+68-->C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml:58:17-76
+68-->C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml:58:27-73
+69                <category android:name="android.intent.category.BROWSABLE" />
+69-->C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml:59:17-78
+69-->C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml:59:27-75
+70
+71                <data android:scheme="workerman" />
+71-->C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml:61:17-52
+71-->C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml:61:23-49
+72            </intent-filter>
+73        </activity>
+74
+75        <meta-data
+75-->C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml:65:9-67:69
+76            android:name="com.google.android.gms.version"
+76-->C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml:66:13-58
+77            android:value="@integer/google_play_services_version" />
+77-->C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml:67:13-66
+78        <meta-data
+78-->C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml:69:9-71:71
+79            android:name="com.google.firebase.messaging.default_notification_channel_id"
+79-->C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml:70:13-89
+80            android:value="@string/default_notification_channel_id" />
+80-->C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml:71:13-68
+81        <!-- [END fcm_default_channel] -->
+82        <!-- IGAWorks START -->
+83
+84
+85        <!-- [START firebase_service] -->
+86        <service android:name="com.workerman.app.fcm.WorkerManFirebaseMessagingService" >
+86-->C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml:76:9-80:19
+86-->C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml:76:18-88
+87            <intent-filter>
+87-->C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml:77:13-79:29
+88                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+88-->C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml:78:17-78
+88-->C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml:78:25-75
+89            </intent-filter>
+90        </service>
+91        <!-- [END firebase_service] -->
+92        <service
+92-->C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml:82:9-88:19
+93            android:name="com.workerman.app.fcm.WorkerManJobService"
+93-->C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml:83:13-69
+94            android:exported="false" >
+94-->C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml:84:13-37
+95            <intent-filter>
+95-->C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml:85:13-87:29
+96                <action android:name="com.firebase.jobdispatcher.ACTION_EXECUTE" />
+96-->C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml:86:17-84
+96-->C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml:86:25-81
+97            </intent-filter>
+98        </service>
+99        <service
+99-->C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml:90:9-94:56
+100            android:name="com.workerman.app.service.LocationUpdatesService"
+100-->C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml:91:13-76
+101            android:enabled="true"
+101-->C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml:92:13-35
+102            android:exported="true"
+102-->C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml:93:13-36
+103            android:foregroundServiceType="location" />
+103-->C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml:94:13-53
+104
+105        <activity
+105-->[gun0912.ted:tedimagepicker:1.0.8] C:\Users\dwkwon\.gradle\caches\transforms-3\25624100dbace51f9e54a2b5cac8b87e\transformed\tedimagepicker-1.0.8\AndroidManifest.xml:12:9-14:58
+106            android:name="gun0912.tedimagepicker.TedImagePickerActivity"
+106-->[gun0912.ted:tedimagepicker:1.0.8] C:\Users\dwkwon\.gradle\caches\transforms-3\25624100dbace51f9e54a2b5cac8b87e\transformed\tedimagepicker-1.0.8\AndroidManifest.xml:13:13-73
+107            android:theme="@style/TedImagePickerTheme" />
+107-->[gun0912.ted:tedimagepicker:1.0.8] C:\Users\dwkwon\.gradle\caches\transforms-3\25624100dbace51f9e54a2b5cac8b87e\transformed\tedimagepicker-1.0.8\AndroidManifest.xml:14:13-55
+108        <activity
+108-->[gun0912.ted:tedimagepicker:1.0.8] C:\Users\dwkwon\.gradle\caches\transforms-3\25624100dbace51f9e54a2b5cac8b87e\transformed\tedimagepicker-1.0.8\AndroidManifest.xml:15:9-17:63
+109            android:name="gun0912.tedimagepicker.zoom.TedImageZoomActivity"
+109-->[gun0912.ted:tedimagepicker:1.0.8] C:\Users\dwkwon\.gradle\caches\transforms-3\25624100dbace51f9e54a2b5cac8b87e\transformed\tedimagepicker-1.0.8\AndroidManifest.xml:16:13-76
+110            android:theme="@style/TedImagePickerTheme.Zoom" />
+110-->[gun0912.ted:tedimagepicker:1.0.8] C:\Users\dwkwon\.gradle\caches\transforms-3\25624100dbace51f9e54a2b5cac8b87e\transformed\tedimagepicker-1.0.8\AndroidManifest.xml:17:13-60
+111
+112        <provider
+112-->[gun0912.ted:tedimagepicker:1.0.8] C:\Users\dwkwon\.gradle\caches\transforms-3\25624100dbace51f9e54a2b5cac8b87e\transformed\tedimagepicker-1.0.8\AndroidManifest.xml:19:9-27:20
+113            android:name="androidx.core.content.FileProvider"
+113-->[gun0912.ted:tedimagepicker:1.0.8] C:\Users\dwkwon\.gradle\caches\transforms-3\25624100dbace51f9e54a2b5cac8b87e\transformed\tedimagepicker-1.0.8\AndroidManifest.xml:20:13-62
+114            android:authorities="com.workerman.app.provider"
+114-->[gun0912.ted:tedimagepicker:1.0.8] C:\Users\dwkwon\.gradle\caches\transforms-3\25624100dbace51f9e54a2b5cac8b87e\transformed\tedimagepicker-1.0.8\AndroidManifest.xml:21:13-60
+115            android:exported="false"
+115-->[gun0912.ted:tedimagepicker:1.0.8] C:\Users\dwkwon\.gradle\caches\transforms-3\25624100dbace51f9e54a2b5cac8b87e\transformed\tedimagepicker-1.0.8\AndroidManifest.xml:22:13-37
+116            android:grantUriPermissions="true" >
+116-->[gun0912.ted:tedimagepicker:1.0.8] C:\Users\dwkwon\.gradle\caches\transforms-3\25624100dbace51f9e54a2b5cac8b87e\transformed\tedimagepicker-1.0.8\AndroidManifest.xml:23:13-47
+117            <meta-data
+117-->[gun0912.ted:tedimagepicker:1.0.8] C:\Users\dwkwon\.gradle\caches\transforms-3\25624100dbace51f9e54a2b5cac8b87e\transformed\tedimagepicker-1.0.8\AndroidManifest.xml:24:13-26:58
+118                android:name="android.support.FILE_PROVIDER_PATHS"
+118-->[gun0912.ted:tedimagepicker:1.0.8] C:\Users\dwkwon\.gradle\caches\transforms-3\25624100dbace51f9e54a2b5cac8b87e\transformed\tedimagepicker-1.0.8\AndroidManifest.xml:25:17-67
+119                android:resource="@xml/provider_paths" />
+119-->[gun0912.ted:tedimagepicker:1.0.8] C:\Users\dwkwon\.gradle\caches\transforms-3\25624100dbace51f9e54a2b5cac8b87e\transformed\tedimagepicker-1.0.8\AndroidManifest.xml:26:17-55
+120        </provider>
+121
+122        <activity
+122-->[gun0912.ted:tedpermission:2.2.2] C:\Users\dwkwon\.gradle\caches\transforms-3\12b55f93b63249da676dd5e83fc70dd1\transformed\jetified-tedpermission-2.2.2\AndroidManifest.xml:10:9-14:67
+123            android:name="com.gun0912.tedpermission.TedPermissionActivity"
+123-->[gun0912.ted:tedpermission:2.2.2] C:\Users\dwkwon\.gradle\caches\transforms-3\12b55f93b63249da676dd5e83fc70dd1\transformed\jetified-tedpermission-2.2.2\AndroidManifest.xml:11:13-75
+124            android:configChanges="mcc|mnc|locale|keyboard|keyboardHidden|screenLayout|fontScale|uiMode|orientation|screenSize|layoutDirection"
+124-->[gun0912.ted:tedpermission:2.2.2] C:\Users\dwkwon\.gradle\caches\transforms-3\12b55f93b63249da676dd5e83fc70dd1\transformed\jetified-tedpermission-2.2.2\AndroidManifest.xml:12:13-144
+125            android:screenOrientation="unspecified"
+125-->[gun0912.ted:tedpermission:2.2.2] C:\Users\dwkwon\.gradle\caches\transforms-3\12b55f93b63249da676dd5e83fc70dd1\transformed\jetified-tedpermission-2.2.2\AndroidManifest.xml:13:13-52
+126            android:theme="@style/Theme.Transparent.Permission" />
+126-->[gun0912.ted:tedpermission:2.2.2] C:\Users\dwkwon\.gradle\caches\transforms-3\12b55f93b63249da676dd5e83fc70dd1\transformed\jetified-tedpermission-2.2.2\AndroidManifest.xml:14:13-64
+127        <activity
+127-->[gun0912.ted:tedonactivityresult:1.0.6] C:\Users\dwkwon\.gradle\caches\transforms-3\489b21481a218b67f267fc5d38c49cf2\transformed\jetified-tedonactivityresult-1.0.6\AndroidManifest.xml:10:9-14:75
+128            android:name="com.gun0912.tedonactivityresult.ProxyActivity"
+128-->[gun0912.ted:tedonactivityresult:1.0.6] C:\Users\dwkwon\.gradle\caches\transforms-3\489b21481a218b67f267fc5d38c49cf2\transformed\jetified-tedonactivityresult-1.0.6\AndroidManifest.xml:11:13-73
+129            android:configChanges="mcc|mnc|locale|keyboard|keyboardHidden|screenLayout|fontScale|uiMode|orientation|screenSize|layoutDirection"
+129-->[gun0912.ted:tedonactivityresult:1.0.6] C:\Users\dwkwon\.gradle\caches\transforms-3\489b21481a218b67f267fc5d38c49cf2\transformed\jetified-tedonactivityresult-1.0.6\AndroidManifest.xml:12:13-144
+130            android:screenOrientation="unspecified"
+130-->[gun0912.ted:tedonactivityresult:1.0.6] C:\Users\dwkwon\.gradle\caches\transforms-3\489b21481a218b67f267fc5d38c49cf2\transformed\jetified-tedonactivityresult-1.0.6\AndroidManifest.xml:13:13-52
+131            android:theme="@style/android:Theme.Translucent.NoTitleBar" />
+131-->[gun0912.ted:tedonactivityresult:1.0.6] C:\Users\dwkwon\.gradle\caches\transforms-3\489b21481a218b67f267fc5d38c49cf2\transformed\jetified-tedonactivityresult-1.0.6\AndroidManifest.xml:14:13-72
+132        <!--
+133             FirebaseMessagingService performs security checks at runtime,
+134             but set to not exported to explicitly avoid allowing another app to call it.
+135        -->
+136        <service
+136-->[com.google.firebase:firebase-messaging:20.0.0] C:\Users\dwkwon\.gradle\caches\transforms-3\2135437e9289ac59488e44ba7c5d3a24\transformed\jetified-firebase-messaging-20.0.0\AndroidManifest.xml:28:9-34:19
+137            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+137-->[com.google.firebase:firebase-messaging:20.0.0] C:\Users\dwkwon\.gradle\caches\transforms-3\2135437e9289ac59488e44ba7c5d3a24\transformed\jetified-firebase-messaging-20.0.0\AndroidManifest.xml:29:13-82
+138            android:exported="false" >
+138-->[com.google.firebase:firebase-messaging:20.0.0] C:\Users\dwkwon\.gradle\caches\transforms-3\2135437e9289ac59488e44ba7c5d3a24\transformed\jetified-firebase-messaging-20.0.0\AndroidManifest.xml:30:13-37
+139            <intent-filter android:priority="-500" >
+139-->C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml:77:13-79:29
+140                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+140-->C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml:78:17-78
+140-->C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml:78:25-75
+141            </intent-filter>
+142        </service>
+143        <service
+143-->[com.google.android.gms:play-services-measurement-api:17.2.0] C:\Users\dwkwon\.gradle\caches\transforms-3\6a3476fcbc5c8e67d9d56880f80d32a3\transformed\play-services-measurement-api-17.2.0\AndroidManifest.xml:27:9-33:19
+144            android:name="com.google.firebase.components.ComponentDiscoveryService"
+144-->[com.google.android.gms:play-services-measurement-api:17.2.0] C:\Users\dwkwon\.gradle\caches\transforms-3\6a3476fcbc5c8e67d9d56880f80d32a3\transformed\play-services-measurement-api-17.2.0\AndroidManifest.xml:28:13-84
+145            android:exported="false" >
+145-->[com.google.android.gms:play-services-measurement-api:17.2.0] C:\Users\dwkwon\.gradle\caches\transforms-3\6a3476fcbc5c8e67d9d56880f80d32a3\transformed\play-services-measurement-api-17.2.0\AndroidManifest.xml:29:13-37
+146            <meta-data
+146-->[com.google.android.gms:play-services-measurement-api:17.2.0] C:\Users\dwkwon\.gradle\caches\transforms-3\6a3476fcbc5c8e67d9d56880f80d32a3\transformed\play-services-measurement-api-17.2.0\AndroidManifest.xml:30:13-32:85
+147                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+147-->[com.google.android.gms:play-services-measurement-api:17.2.0] C:\Users\dwkwon\.gradle\caches\transforms-3\6a3476fcbc5c8e67d9d56880f80d32a3\transformed\play-services-measurement-api-17.2.0\AndroidManifest.xml:31:17-139
+148                android:value="com.google.firebase.components.ComponentRegistrar" />
+148-->[com.google.android.gms:play-services-measurement-api:17.2.0] C:\Users\dwkwon\.gradle\caches\transforms-3\6a3476fcbc5c8e67d9d56880f80d32a3\transformed\play-services-measurement-api-17.2.0\AndroidManifest.xml:32:17-82
+149            <meta-data
+149-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\dwkwon\.gradle\caches\transforms-3\3eccd392d53190426ca2d0881801885a\transformed\firebase-iid-20.0.0\AndroidManifest.xml:32:13-34:85
+150                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+150-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\dwkwon\.gradle\caches\transforms-3\3eccd392d53190426ca2d0881801885a\transformed\firebase-iid-20.0.0\AndroidManifest.xml:33:17-96
+151                android:value="com.google.firebase.components.ComponentRegistrar" />
+151-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\dwkwon\.gradle\caches\transforms-3\3eccd392d53190426ca2d0881801885a\transformed\firebase-iid-20.0.0\AndroidManifest.xml:34:17-82
+152        </service>
+153
+154        <receiver
+154-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\dwkwon\.gradle\caches\transforms-3\3eccd392d53190426ca2d0881801885a\transformed\firebase-iid-20.0.0\AndroidManifest.xml:37:9-44:20
+155            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+155-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\dwkwon\.gradle\caches\transforms-3\3eccd392d53190426ca2d0881801885a\transformed\firebase-iid-20.0.0\AndroidManifest.xml:38:13-78
+156            android:exported="true"
+156-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\dwkwon\.gradle\caches\transforms-3\3eccd392d53190426ca2d0881801885a\transformed\firebase-iid-20.0.0\AndroidManifest.xml:39:13-36
+157            android:permission="com.google.android.c2dm.permission.SEND" >
+157-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\dwkwon\.gradle\caches\transforms-3\3eccd392d53190426ca2d0881801885a\transformed\firebase-iid-20.0.0\AndroidManifest.xml:40:13-73
+158            <intent-filter>
+158-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\dwkwon\.gradle\caches\transforms-3\3eccd392d53190426ca2d0881801885a\transformed\firebase-iid-20.0.0\AndroidManifest.xml:41:13-43:29
+159                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+159-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\dwkwon\.gradle\caches\transforms-3\3eccd392d53190426ca2d0881801885a\transformed\firebase-iid-20.0.0\AndroidManifest.xml:42:17-81
+159-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\dwkwon\.gradle\caches\transforms-3\3eccd392d53190426ca2d0881801885a\transformed\firebase-iid-20.0.0\AndroidManifest.xml:42:25-78
+160            </intent-filter>
+161        </receiver>
+162        <!--
+163             Receives GooglePlay execution requests and forwards them to the
+164             appropriate internal service.
+165        -->
+166        <service
+166-->[com.firebase:firebase-jobdispatcher:0.8.5] C:\Users\dwkwon\.gradle\caches\transforms-3\934ae423028259d392cafeb3b9aa2984\transformed\jetified-firebase-jobdispatcher-0.8.5\AndroidManifest.xml:32:9-39:19
+167            android:name="com.firebase.jobdispatcher.GooglePlayReceiver"
+167-->[com.firebase:firebase-jobdispatcher:0.8.5] C:\Users\dwkwon\.gradle\caches\transforms-3\934ae423028259d392cafeb3b9aa2984\transformed\jetified-firebase-jobdispatcher-0.8.5\AndroidManifest.xml:33:13-73
+168            android:exported="true"
+168-->[com.firebase:firebase-jobdispatcher:0.8.5] C:\Users\dwkwon\.gradle\caches\transforms-3\934ae423028259d392cafeb3b9aa2984\transformed\jetified-firebase-jobdispatcher-0.8.5\AndroidManifest.xml:34:13-36
+169            android:permission="com.google.android.gms.permission.BIND_NETWORK_TASK_SERVICE" >
+169-->[com.firebase:firebase-jobdispatcher:0.8.5] C:\Users\dwkwon\.gradle\caches\transforms-3\934ae423028259d392cafeb3b9aa2984\transformed\jetified-firebase-jobdispatcher-0.8.5\AndroidManifest.xml:35:13-93
+170            <intent-filter>
+170-->[com.firebase:firebase-jobdispatcher:0.8.5] C:\Users\dwkwon\.gradle\caches\transforms-3\934ae423028259d392cafeb3b9aa2984\transformed\jetified-firebase-jobdispatcher-0.8.5\AndroidManifest.xml:36:13-38:29
+171                <action android:name="com.google.android.gms.gcm.ACTION_TASK_READY" />
+171-->[com.firebase:firebase-jobdispatcher:0.8.5] C:\Users\dwkwon\.gradle\caches\transforms-3\934ae423028259d392cafeb3b9aa2984\transformed\jetified-firebase-jobdispatcher-0.8.5\AndroidManifest.xml:37:17-87
+171-->[com.firebase:firebase-jobdispatcher:0.8.5] C:\Users\dwkwon\.gradle\caches\transforms-3\934ae423028259d392cafeb3b9aa2984\transformed\jetified-firebase-jobdispatcher-0.8.5\AndroidManifest.xml:37:25-84
+172            </intent-filter>
+173        </service>
+174
+175        <receiver
+175-->[com.google.android.gms:play-services-measurement:17.2.0] C:\Users\dwkwon\.gradle\caches\transforms-3\6cfaffc05d9d0fe0efff6b9a57ba0190\transformed\play-services-measurement-17.2.0\AndroidManifest.xml:29:9-33:20
+176            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+176-->[com.google.android.gms:play-services-measurement:17.2.0] C:\Users\dwkwon\.gradle\caches\transforms-3\6cfaffc05d9d0fe0efff6b9a57ba0190\transformed\play-services-measurement-17.2.0\AndroidManifest.xml:30:13-85
+177            android:enabled="true"
+177-->[com.google.android.gms:play-services-measurement:17.2.0] C:\Users\dwkwon\.gradle\caches\transforms-3\6cfaffc05d9d0fe0efff6b9a57ba0190\transformed\play-services-measurement-17.2.0\AndroidManifest.xml:31:13-35
+178            android:exported="false" >
+178-->[com.google.android.gms:play-services-measurement:17.2.0] C:\Users\dwkwon\.gradle\caches\transforms-3\6cfaffc05d9d0fe0efff6b9a57ba0190\transformed\play-services-measurement-17.2.0\AndroidManifest.xml:32:13-37
+179        </receiver>
+180        <receiver
+180-->[com.google.android.gms:play-services-measurement:17.2.0] C:\Users\dwkwon\.gradle\caches\transforms-3\6cfaffc05d9d0fe0efff6b9a57ba0190\transformed\play-services-measurement-17.2.0\AndroidManifest.xml:34:9-42:20
+181            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+181-->[com.google.android.gms:play-services-measurement:17.2.0] C:\Users\dwkwon\.gradle\caches\transforms-3\6cfaffc05d9d0fe0efff6b9a57ba0190\transformed\play-services-measurement-17.2.0\AndroidManifest.xml:35:13-100
+182            android:enabled="true"
+182-->[com.google.android.gms:play-services-measurement:17.2.0] C:\Users\dwkwon\.gradle\caches\transforms-3\6cfaffc05d9d0fe0efff6b9a57ba0190\transformed\play-services-measurement-17.2.0\AndroidManifest.xml:36:13-35
+183            android:exported="true"
+183-->[com.google.android.gms:play-services-measurement:17.2.0] C:\Users\dwkwon\.gradle\caches\transforms-3\6cfaffc05d9d0fe0efff6b9a57ba0190\transformed\play-services-measurement-17.2.0\AndroidManifest.xml:37:13-36
+184            android:permission="android.permission.INSTALL_PACKAGES" >
+184-->[com.google.android.gms:play-services-measurement:17.2.0] C:\Users\dwkwon\.gradle\caches\transforms-3\6cfaffc05d9d0fe0efff6b9a57ba0190\transformed\play-services-measurement-17.2.0\AndroidManifest.xml:38:13-69
+185            <intent-filter>
+185-->[com.google.android.gms:play-services-measurement:17.2.0] C:\Users\dwkwon\.gradle\caches\transforms-3\6cfaffc05d9d0fe0efff6b9a57ba0190\transformed\play-services-measurement-17.2.0\AndroidManifest.xml:39:13-41:29
+186                <action android:name="com.android.vending.INSTALL_REFERRER" />
+186-->[com.google.android.gms:play-services-measurement:17.2.0] C:\Users\dwkwon\.gradle\caches\transforms-3\6cfaffc05d9d0fe0efff6b9a57ba0190\transformed\play-services-measurement-17.2.0\AndroidManifest.xml:40:17-79
+186-->[com.google.android.gms:play-services-measurement:17.2.0] C:\Users\dwkwon\.gradle\caches\transforms-3\6cfaffc05d9d0fe0efff6b9a57ba0190\transformed\play-services-measurement-17.2.0\AndroidManifest.xml:40:25-76
+187            </intent-filter>
+188        </receiver>
+189
+190        <service
+190-->[com.google.android.gms:play-services-measurement:17.2.0] C:\Users\dwkwon\.gradle\caches\transforms-3\6cfaffc05d9d0fe0efff6b9a57ba0190\transformed\play-services-measurement-17.2.0\AndroidManifest.xml:44:9-47:40
+191            android:name="com.google.android.gms.measurement.AppMeasurementService"
+191-->[com.google.android.gms:play-services-measurement:17.2.0] C:\Users\dwkwon\.gradle\caches\transforms-3\6cfaffc05d9d0fe0efff6b9a57ba0190\transformed\play-services-measurement-17.2.0\AndroidManifest.xml:45:13-84
+192            android:enabled="true"
+192-->[com.google.android.gms:play-services-measurement:17.2.0] C:\Users\dwkwon\.gradle\caches\transforms-3\6cfaffc05d9d0fe0efff6b9a57ba0190\transformed\play-services-measurement-17.2.0\AndroidManifest.xml:46:13-35
+193            android:exported="false" />
+193-->[com.google.android.gms:play-services-measurement:17.2.0] C:\Users\dwkwon\.gradle\caches\transforms-3\6cfaffc05d9d0fe0efff6b9a57ba0190\transformed\play-services-measurement-17.2.0\AndroidManifest.xml:47:13-37
+194        <service
+194-->[com.google.android.gms:play-services-measurement:17.2.0] C:\Users\dwkwon\.gradle\caches\transforms-3\6cfaffc05d9d0fe0efff6b9a57ba0190\transformed\play-services-measurement-17.2.0\AndroidManifest.xml:48:9-52:72
+195            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+195-->[com.google.android.gms:play-services-measurement:17.2.0] C:\Users\dwkwon\.gradle\caches\transforms-3\6cfaffc05d9d0fe0efff6b9a57ba0190\transformed\play-services-measurement-17.2.0\AndroidManifest.xml:49:13-87
+196            android:enabled="true"
+196-->[com.google.android.gms:play-services-measurement:17.2.0] C:\Users\dwkwon\.gradle\caches\transforms-3\6cfaffc05d9d0fe0efff6b9a57ba0190\transformed\play-services-measurement-17.2.0\AndroidManifest.xml:50:13-35
+197            android:exported="false"
+197-->[com.google.android.gms:play-services-measurement:17.2.0] C:\Users\dwkwon\.gradle\caches\transforms-3\6cfaffc05d9d0fe0efff6b9a57ba0190\transformed\play-services-measurement-17.2.0\AndroidManifest.xml:51:13-37
+198            android:permission="android.permission.BIND_JOB_SERVICE" />
+198-->[com.google.android.gms:play-services-measurement:17.2.0] C:\Users\dwkwon\.gradle\caches\transforms-3\6cfaffc05d9d0fe0efff6b9a57ba0190\transformed\play-services-measurement-17.2.0\AndroidManifest.xml:52:13-69
+199
+200        <provider
+200-->[com.google.firebase:firebase-common:19.0.0] C:\Users\dwkwon\.gradle\caches\transforms-3\0dd07f728bd2738ce1f52c4a26bfcd78\transformed\firebase-common-19.0.0\AndroidManifest.xml:12:9-16:39
+201            android:name="com.google.firebase.provider.FirebaseInitProvider"
+201-->[com.google.firebase:firebase-common:19.0.0] C:\Users\dwkwon\.gradle\caches\transforms-3\0dd07f728bd2738ce1f52c4a26bfcd78\transformed\firebase-common-19.0.0\AndroidManifest.xml:13:13-77
+202            android:authorities="com.workerman.app.firebaseinitprovider"
+202-->[com.google.firebase:firebase-common:19.0.0] C:\Users\dwkwon\.gradle\caches\transforms-3\0dd07f728bd2738ce1f52c4a26bfcd78\transformed\firebase-common-19.0.0\AndroidManifest.xml:14:13-72
+203            android:exported="false"
+203-->[com.google.firebase:firebase-common:19.0.0] C:\Users\dwkwon\.gradle\caches\transforms-3\0dd07f728bd2738ce1f52c4a26bfcd78\transformed\firebase-common-19.0.0\AndroidManifest.xml:15:13-37
+204            android:initOrder="100" />
+204-->[com.google.firebase:firebase-common:19.0.0] C:\Users\dwkwon\.gradle\caches\transforms-3\0dd07f728bd2738ce1f52c4a26bfcd78\transformed\firebase-common-19.0.0\AndroidManifest.xml:16:13-36
+205
+206        <activity
+206-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\dwkwon\.gradle\caches\transforms-3\17c73a141685d1777d4707cfbedfa690\transformed\play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+207            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+207-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\dwkwon\.gradle\caches\transforms-3\17c73a141685d1777d4707cfbedfa690\transformed\play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+208            android:exported="false"
+208-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\dwkwon\.gradle\caches\transforms-3\17c73a141685d1777d4707cfbedfa690\transformed\play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+209            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+209-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\dwkwon\.gradle\caches\transforms-3\17c73a141685d1777d4707cfbedfa690\transformed\play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+210    </application>
+211
+212</manifest>

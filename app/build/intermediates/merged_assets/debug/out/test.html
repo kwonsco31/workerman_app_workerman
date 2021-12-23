@@ -1,0 +1,126 @@
+<html>
+<head>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <!--<script type="text/javascript" charset="utf-8" src="http://tmstatic.priviatravel.com/js/front/mtravel/jquery-1.8.3.min.js"></script>-->
+<!--<script type="text/javascript" charset="utf-8" src="http://tmstatic.priviatravel.com/js/front/mtravel/jquery.mobile-1.4.2.js"></script>-->
+<script language="JavaScript">
+	
+function setMessage(arg) {
+	document.getElementById('textMessageFromApp').innerHTML = arg;
+}
+
+function setBadgeCount(msg){
+<!--badge count를 설정합니다.-->
+    console.log("badgeCount:"+msg);
+	window.StartupHiveApp.setBadgeCount(msg);
+}
+
+function getGPSEvent(json){
+    <!--var gpsjson = JSON.parse(eval(JSON.stringify(json)));-->
+    <!--alert(JSON.stringify(json));-->
+    document.getElementById('gpsLocation').innerHTML = JSON.stringify(json);
+    <!--console.log("json:[" + json + "]");-->
+    <!-- gps 수신 완료 후에는 gps listener를 해제해 줍니다.-->
+    window.StartupHiveApp.stopGPSInfo();
+}
+
+function getGPSLocation(){
+<!--1. getGPSInfo를 호출하면 수신 등록이 되고, 위 getGPSEvent로 이벤트 전달이 되도록 구성되어 있습니다. 전달받기 위해서는 일정 시간이 필요하며, 전달 받은 후에는 리스너를 해제하도록 구성 되어 있습니다.-->
+<!--아직 예외 처리가 필요한 부분이 있습니다. 수신 불가시... 등-->
+    <!--Request GPS Location : GPS, Network를 통한 위치 정보 획득(longitude:경도, latitude:위도, altitude:고도, accuracy:정확도, provider:위치제공자)-->
+    window.StartupHiveApp.getGPSInfo();
+}
+
+function xWIndowOpen(url){
+<!--타이틀이 있고 X표시가 있는 서브 윈도우를 띄워줍니다.-->
+    window.StartupHiveApp.openXWindow(url);
+}
+
+function windowOpen(url){
+<!--서브 윈도우를 띄워줍니다.-->
+    window.StartupHiveApp.openWindow(url);
+}
+
+function openBrowser(url){
+<!--디바이스 브라우져로 연결합니다.-->
+    window.StartupHiveApp.openBrowser(url);
+}
+
+function loadUrl(url){
+<!--App Browser로 전달된 url을 로드 시킴니다. 별 필요 없어 보입니다. ^^;-->
+    window.StartupHiveApp.loadUrl(url);
+}
+
+function getGCMRegKey(){
+    console.log("token:[" + window.StartupHiveApp.getFCMRegKey() + "]");
+	document.getElementById('regKeyMsg').innerHTML = window.StartupHiveApp.getFCMRegKey();
+}
+
+$("input").delegate("#inputFileUpload", 'click', function (e) {
+
+    window.StartupHiveApp.open( "contents", "imgThumbnail"); //"contents" : key , "imgThumbnail" : Thumbnail 이 표시될 div
+
+});
+
+function getPushToken(){
+    window.location.href='protocol://getPushToken';
+}
+
+function getPushTokenEvent(_token){
+alert(_token);
+    document.getElementById('token').innerHTML = _token;
+}
+
+</script>
+</head>
+
+<body>
+Hybrid App (WEB+APP) setBadgeCount
+<hr/>
+<input type="text" id="txtBadgeCount" value="12"/>
+<input type="button" value="Set Badge Count" onclick="setBadgeCount(document.getElementById('txtBadgeCount').value)"/>
+<hr/>
+Hybrid App (WEB+APP) getGCMRegKey
+<input type="text" id="regKey" value=""/>
+<input type="button" value="Get GCM RegKey" onclick="getGCMRegKey()"/>
+<hr/>
+Message From App:
+<p id="regKeyMsg">
+</p>
+Hybrid App (WEB+APP) getGPSLocation
+<hr/>
+<input type="text" id="gpsInfo" value=""/>
+<input type="button" value="Get GPS Info" onclick="getGPSLocation()"/>
+<hr/>
+Message From App:
+<p id="gpsLocation">
+</p>
+Hybrid App (WEB+APP) openXWindow
+<hr/>
+<input type="text" id="xWIndowOpen" value="http://m.naver.com"/>
+<input type="button" value="Open X Sub Window" onclick="xWIndowOpen(document.getElementById('xWIndowOpen').value)"/>
+<hr/>
+Hybrid App (WEB+APP) openWindow
+<hr/>
+<input type="text" id="wIndowOpen" value="http://m.daum.net"/>
+<input type="button" value="Open Sub WIndow" onclick="windowOpen(document.getElementById('wIndowOpen').value)"/>
+<hr/>
+Hybrid App (WEB+APP) openWindow
+<hr/>
+<input type="text" id="browserOpen" value="http://m.daum.net"/>
+<input type="button" value="Open Browser" onclick="openBrowser(document.getElementById('browserOpen').value)"/>
+<hr/>
+Hybrid App (WEB+APP) get Push Token
+<hr/>
+<input type="text" id="token" value=""/>
+<input type="button" value="Get PushToken" onclick="javascript:getPushToken()"/>
+<hr/>
+
+<input type="file" id="inputFileUpload" name = "inputFileUpload" value="upload"/>
+<div id="imgThumbnail" name="imgThumbnail">
+    <a href="protocol://workdate/17"> 날짜선택</a>>
+    <a href="protocol://detail/17"> 작업보기</a>>
+</div>
+</body>
+</html>

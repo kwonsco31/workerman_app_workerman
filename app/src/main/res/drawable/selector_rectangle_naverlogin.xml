@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:state_pressed="true" android:state_enabled="true">
+        <layer-list
+            xmlns:android="http://schemas.android.com/apk/res/android">
+            <item>
+                <shape>
+                    <solid android:color="@color/green_1dc800_trans_90" />
+                </shape>
+            </item>
+            <item android:left="1.0px" android:top="1.0px" android:right="1.0px" android:bottom="1.0px">
+                <shape android:shape="rectangle"
+                    xmlns:android="http://schemas.android.com/apk/res/android">
+                    <solid android:color="@color/green_1dc800_trans_90" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+    <item android:state_enabled="false">
+        <layer-list
+            xmlns:android="http://schemas.android.com/apk/res/android">
+            <item>
+                <shape>
+                    <solid android:color="@color/common_grey_hint_color_999999" />
+                </shape>
+            </item>
+            <item android:left="1.0px" android:top="1.0px" android:right="1.0px" android:bottom="1.0px">
+                <shape android:shape="rectangle"
+                    xmlns:android="http://schemas.android.com/apk/res/android">
+                    <solid android:color="@color/common_grey_hint_color_999999" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+    <item android:state_pressed="false" android:state_enabled="true">
+        <layer-list
+            xmlns:android="http://schemas.android.com/apk/res/android">
+            <item>
+                <shape>
+                    <solid android:color="@color/green_1dc800" />
+                </shape>
+            </item>
+            <item android:left="1.0px" android:top="1.0px" android:right="1.0px" android:bottom="1.0px">
+                <shape android:shape="rectangle"
+                    xmlns:android="http://schemas.android.com/apk/res/android">
+                    <solid android:color="@color/green_1dc800" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+</selector>

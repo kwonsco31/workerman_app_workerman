@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+                                                       
+                                                        
+                                                   
+
+    
+
+                 
+                             
+                             
+
+                 
+                                 
+                            
+
+                 
+                        
+                                                        
+
+           
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:foreground="?android:attr/selectableItemBackground" android:tag="layout/item_album_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:bind="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="@dimen/ted_image_picker_menu_width"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/list_item_container_padding_small">
+
+            <FrameLayout
+                android:id="@+id/view_image"
+                android:layout_width="@dimen/list_item_avatar_size_large"
+                android:layout_height="@dimen/list_item_avatar_size_large"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <ImageView
+                    android:id="@+id/iv_image"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:tag="binding_1"               />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/ted_image_picker_selected_foreground"
+                    android:padding="@dimen/default_padding_small"
+                    android:src="@drawable/ic_check"
+                    android:tag="binding_2"            />
+
+            </FrameLayout>
+
+
+            <TextView
+                android:id="@+id/tv_name"
+                style="@style/TextAppearance.AppCompat.Subhead"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_marginStart="@dimen/list_item_container_padding_small"
+                android:ellipsize="end"
+                android:gravity="center_vertical"
+                android:maxLines="1"
+                android:tag="binding_3"     
+                app:layout_constraintBottom_toTopOf="@id/tv_count"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@id/view_image"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:text="All All AllAllAllAllAllAll" />
+
+            <TextView
+                android:id="@+id/tv_count"
+                style="@style/TextAppearance.AppCompat.Subhead"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:gravity="center_vertical"
+                android:tag="binding_4"         
+                android:textColor="@color/txt_medium_gray"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="@id/tv_name"
+                app:layout_constraintTop_toBottomOf="@id/tv_name"
+                tools:text="3510" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </FrameLayout>
+         

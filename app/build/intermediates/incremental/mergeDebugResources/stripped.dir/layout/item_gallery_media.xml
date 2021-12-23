@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+                                                       
+                                                        
+                                                   
+
+    
+
+                                                                        
+
+                 
+                        
+                                                        
+
+                 
+                             
+                             
+
+                 
+                                 
+                         
+
+                 
+                             
+                                
+
+                 
+                           
+                             
+
+           
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:foreground="?android:attr/selectableItemBackground"
+        tools:layout_height="137dp"
+        tools:layout_width="137dp" android:tag="layout/item_gallery_media_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:bind="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/iv_image"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:scaleType="centerCrop"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintDimensionRatio="1:1"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:tag="binding_1"      />
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:tag="binding_2"                               
+                app:layout_constraintBottom_toBottomOf="@id/iv_image"
+                app:layout_constraintEnd_toEndOf="@id/iv_image"
+                app:layout_constraintStart_toStartOf="@id/iv_image"
+                app:layout_constraintTop_toTopOf="@id/iv_image">
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/ted_image_picker_selected_foreground"
+                    android:tag="binding_3"            />
+
+                <TextView
+                    style="@style/TextAppearance.AppCompat.Body1"
+                    android:layout_width="@dimen/list_item_avatar_size_small"
+                    android:layout_height="@dimen/list_item_avatar_size_small"
+                    android:layout_gravity="end"
+                    android:layout_margin="@dimen/default_padding_small"
+                    android:tag="binding_4"                                                                                    
+                    android:gravity="center"
+                                                                                     
+                    android:textColor="@color/white"
+                    tools:background="@drawable/bg_multi_image_selected"
+                    tools:text="5" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/view_zoom_out"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/default_padding_xsmall"
+                android:padding="@dimen/default_padding_xsmall"
+                android:tag="binding_5"         
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent">
+
+                <ImageView
+                    android:layout_width="@dimen/ted_image_picker_zoom_size"
+                    android:layout_height="@dimen/ted_image_picker_zoom_size"
+                    android:adjustViewBounds="true"
+                    android:background="@color/ted_image_picker_zoom_background"
+                    android:src="@drawable/ic_zoom_out_24dp" />
+            </FrameLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </FrameLayout>
+         

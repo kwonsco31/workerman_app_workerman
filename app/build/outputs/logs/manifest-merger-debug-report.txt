@@ -1,0 +1,699 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml:2:1-98:12
+INJECTED from C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml:2:1-98:12
+INJECTED from C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml:2:1-98:12
+INJECTED from C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml:2:1-98:12
+MERGED from [gun0912.ted:tedimagepicker:1.0.8] C:\Users\dwkwon\.gradle\caches\transforms-3\25624100dbace51f9e54a2b5cac8b87e\transformed\tedimagepicker-1.0.8\AndroidManifest.xml:2:1-30:12
+MERGED from [androidx.databinding:databinding-adapters:3.5.3] C:\Users\dwkwon\.gradle\caches\transforms-3\b0f8e5d047a3880aa1e03b16f8f80edf\transformed\databinding-adapters-3.5.3\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.databinding:databinding-runtime:3.5.3] C:\Users\dwkwon\.gradle\caches\transforms-3\f87cb58d604af645f3d3433bf1319e2f\transformed\databinding-runtime-3.5.3\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.multidex:multidex:2.0.1] C:\Users\dwkwon\.gradle\caches\transforms-3\c0b9bced6b7a2555dbacae1754f745fc\transformed\multidex-2.0.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.jakewharton:butterknife:10.1.0] C:\Users\dwkwon\.gradle\caches\transforms-3\0c12f7386817736a313f099e9df0cc0b\transformed\butterknife-10.1.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.material:material:1.1.0-alpha07] C:\Users\dwkwon\.gradle\caches\transforms-3\a8f71a60d2484a84f43b2de52dbf0886\transformed\material-1.1.0-alpha07\AndroidManifest.xml:17:1-24:12
+MERGED from [gun0912.ted:tedpermission-rx2:2.2.2] C:\Users\dwkwon\.gradle\caches\transforms-3\de0d81be5a192d317dd46763d7c2980e\transformed\tedpermission-rx2-2.2.2\AndroidManifest.xml:2:1-12:12
+MERGED from [gun0912.ted:tedpermission:2.2.2] C:\Users\dwkwon\.gradle\caches\transforms-3\12b55f93b63249da676dd5e83fc70dd1\transformed\jetified-tedpermission-2.2.2\AndroidManifest.xml:2:1-17:12
+MERGED from [gun0912.ted:tedonactivityresult-rx2:1.0.6] C:\Users\dwkwon\.gradle\caches\transforms-3\c09fc20435a98c34adba307e12e65617\transformed\tedonactivityresult-rx2-1.0.6\AndroidManifest.xml:2:1-9:12
+MERGED from [gun0912.ted:tedonactivityresult:1.0.6] C:\Users\dwkwon\.gradle\caches\transforms-3\489b21481a218b67f267fc5d38c49cf2\transformed\jetified-tedonactivityresult-1.0.6\AndroidManifest.xml:2:1-17:12
+MERGED from [androidx.appcompat:appcompat:1.1.0-alpha05] C:\Users\dwkwon\.gradle\caches\transforms-3\a77164d5a426b4926ab94dcf6951a7bb\transformed\appcompat-1.1.0-alpha05\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\dwkwon\.gradle\caches\transforms-3\be659b09f382d9301416a17f4237d600\transformed\constraintlayout-1.1.3\AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.firebase:firebase-core:17.2.0] C:\Users\dwkwon\.gradle\caches\transforms-3\47ec0fda0d7db113b6e4bbdf5b2cdb55\transformed\firebase-core-17.2.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-messaging:20.0.0] C:\Users\dwkwon\.gradle\caches\transforms-3\2135437e9289ac59488e44ba7c5d3a24\transformed\jetified-firebase-messaging-20.0.0\AndroidManifest.xml:17:1-37:12
+MERGED from [com.google.firebase:firebase-analytics:17.2.0] C:\Users\dwkwon\.gradle\caches\transforms-3\16a084b38b295f592a12be1910b7fa5f\transformed\firebase-analytics-17.2.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.0] C:\Users\dwkwon\.gradle\caches\transforms-3\6a3476fcbc5c8e67d9d56880f80d32a3\transformed\play-services-measurement-api-17.2.0\AndroidManifest.xml:17:1-36:12
+MERGED from [com.google.firebase:firebase-iid:20.0.0] C:\Users\dwkwon\.gradle\caches\transforms-3\3eccd392d53190426ca2d0881801885a\transformed\firebase-iid-20.0.0\AndroidManifest.xml:17:1-47:12
+MERGED from [com.firebase:firebase-jobdispatcher:0.8.5] C:\Users\dwkwon\.gradle\caches\transforms-3\934ae423028259d392cafeb3b9aa2984\transformed\jetified-firebase-jobdispatcher-0.8.5\AndroidManifest.xml:17:1-42:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\dwkwon\.gradle\caches\transforms-3\532436af46e18f9ed576088701810153\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\dwkwon\.gradle\caches\transforms-3\b799e9eea8d37ee67985be5ff57530af\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:glide:4.9.0] C:\Users\dwkwon\.gradle\caches\transforms-3\7a665f67d3fb0dc76023f11387722165\transformed\jetified-glide-4.9.0\AndroidManifest.xml:2:1-12:12
+MERGED from [com.google.android.gms:play-services-location:17.0.0] C:\Users\dwkwon\.gradle\caches\transforms-3\5d6d4347f8dca94075b90c644097898a\transformed\play-services-location-17.0.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.jakewharton:butterknife-runtime:10.1.0] C:\Users\dwkwon\.gradle\caches\transforms-3\bce0788f7d7bce2a56095bacd94b9b42\transformed\butterknife-runtime-10.1.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-measurement:17.2.0] C:\Users\dwkwon\.gradle\caches\transforms-3\6cfaffc05d9d0fe0efff6b9a57ba0190\transformed\play-services-measurement-17.2.0\AndroidManifest.xml:17:1-55:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.2.0] C:\Users\dwkwon\.gradle\caches\transforms-3\e5751383ae244b45a5cef1b6ca94d7c9\transformed\play-services-measurement-sdk-17.2.0\AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.0] C:\Users\dwkwon\.gradle\caches\transforms-3\c4d7d629abfb6be60c94955e27c3929d\transformed\play-services-measurement-impl-17.2.0\AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] C:\Users\dwkwon\.gradle\caches\transforms-3\1823f66592554777832e37397854cf89\transformed\play-services-stats-17.0.0\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\dwkwon\.gradle\caches\transforms-3\a665e70b5adc031eb4fd6bdcff163534\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-common:19.0.0] C:\Users\dwkwon\.gradle\caches\transforms-3\0dd07f728bd2738ce1f52c4a26bfcd78\transformed\firebase-common-19.0.0\AndroidManifest.xml:2:1-19:12
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] C:\Users\dwkwon\.gradle\caches\transforms-3\3fd020d250b474ed7afce4ae87cdbb62\transformed\firebase-iid-interop-17.0.0\AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\dwkwon\.gradle\caches\transforms-3\17c73a141685d1777d4707cfbedfa690\transformed\play-services-base-17.0.0\AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\dwkwon\.gradle\caches\transforms-3\99e89302f14a44db577423b401b97aa4\transformed\play-services-tasks-17.0.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] C:\Users\dwkwon\.gradle\caches\transforms-3\41284b6baa81d61c053a4cee7a9e8e2c\transformed\firebase-measurement-connector-18.0.0\AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] C:\Users\dwkwon\.gradle\caches\transforms-3\eb95ec0ea4c6dd36e9a7a55907328d8d\transformed\play-services-places-placereport-17.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.0] C:\Users\dwkwon\.gradle\caches\transforms-3\3f26fad70429090d46603131b045ff01\transformed\play-services-measurement-sdk-api-17.2.0\AndroidManifest.xml:17:1-27:12
+MERGED from [com.google.android.gms:play-services-measurement-base:17.2.0] C:\Users\dwkwon\.gradle\caches\transforms-3\f7f59f01fcd8c054bf3bbf6234b64221\transformed\play-services-measurement-base-17.2.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] C:\Users\dwkwon\.gradle\caches\transforms-3\438604b05975a11e1b050bad3b6a0b82\transformed\play-services-ads-identifier-17.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\dwkwon\.gradle\caches\transforms-3\d885a441afc54b85c1f2c31960bd7104\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0-alpha04] C:\Users\dwkwon\.gradle\caches\transforms-3\5a712a03e27876ed6f2547192ab123af\transformed\viewpager2-1.0.0-alpha04\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment:1.1.0-alpha08] C:\Users\dwkwon\.gradle\caches\transforms-3\8bf5c0ae5d974f6238083b9f2fde2c3b\transformed\fragment-1.1.0-alpha08\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\dwkwon\.gradle\caches\transforms-3\d80370a39347cc254153318b08d6266e\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0-alpha05] C:\Users\dwkwon\.gradle\caches\transforms-3\c55484f6d123a27a83a49b7df4ee43d9\transformed\appcompat-resources-1.1.0-alpha05\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0-beta01] C:\Users\dwkwon\.gradle\caches\transforms-3\fd38d8c3cf3611af769444ef9a5f937a\transformed\vectordrawable-animated-1.1.0-beta01\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0-beta01] C:\Users\dwkwon\.gradle\caches\transforms-3\8b0039e7c1219d843821f38c62007bed\transformed\vectordrawable-1.1.0-beta01\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0-alpha01] C:\Users\dwkwon\.gradle\caches\transforms-3\272234e05477e56fabbe3715c86610ab\transformed\coordinatorlayout-1.1.0-alpha01\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.0.1] C:\Users\dwkwon\.gradle\caches\transforms-3\59c227c12da030e37d0eafadad29f5c1\transformed\transition-1.0.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\dwkwon\.gradle\caches\transforms-3\ffa4b9f8856882b73c37a0b026e442ee\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\dwkwon\.gradle\caches\transforms-3\bce9c2619d4ead27c7371cca3f09eff8\transformed\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\dwkwon\.gradle\caches\transforms-3\952a7a521ca03b096143814d81592802\transformed\slidingpanelayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0-alpha05] C:\Users\dwkwon\.gradle\caches\transforms-3\25d485433fd44ea65376c90a83fb7e80\transformed\recyclerview-1.1.0-alpha05\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\dwkwon\.gradle\caches\transforms-3\4507d7fe2530bd042aafefd5bac65076\transformed\customview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\dwkwon\.gradle\caches\transforms-3\509276fad37d620819b308145d86d674\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0-alpha08] C:\Users\dwkwon\.gradle\caches\transforms-3\2692e6607fb0ea804d4a0264d70f943e\transformed\activity-1.0.0-alpha08\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.1.0-beta01] C:\Users\dwkwon\.gradle\caches\transforms-3\0ccb7a60656095610ec5032beca4e1ed\transformed\core-1.1.0-beta01\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0-alpha01] C:\Users\dwkwon\.gradle\caches\transforms-3\8d270bc41873be0c10abfeae58090092\transformed\lifecycle-runtime-2.2.0-alpha01\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0-beta01] C:\Users\dwkwon\.gradle\caches\transforms-3\fd1f29a793e93b9e61ec76229d9cd623\transformed\versionedparcelable-1.1.0-beta01\AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\dwkwon\.gradle\caches\transforms-3\5a2c028cc7ec8c9d1613228cd5959868\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] C:\Users\dwkwon\.gradle\caches\transforms-3\2bc9e89594356bbad7eb235f6e03b852\transformed\jetified-gifdecoder-4.9.0\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\dwkwon\.gradle\caches\transforms-3\eadbed5a476c0f05f7db2b1f2ecbf510\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\dwkwon\.gradle\caches\transforms-3\453889c0f871f3f6d8e54de1136cdeb8\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\dwkwon\.gradle\caches\transforms-3\7674bf3de44b564393057575483a5cf2\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\dwkwon\.gradle\caches\transforms-3\403a3fae2f3a8fcb1bc093f87583a19f\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\dwkwon\.gradle\caches\transforms-3\839e34bff0c353cf557b096a7a2bdfa5\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\dwkwon\.gradle\caches\transforms-3\2143d4a926cae5cbbc8af645fde6b42e\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\dwkwon\.gradle\caches\transforms-3\9b4e3167144b117c6945e8a1894530fa\transformed\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\dwkwon\.gradle\caches\transforms-3\bed42421c5a0559c9cc46be1dd2a45d7\transformed\core-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0-alpha01] C:\Users\dwkwon\.gradle\caches\transforms-3\5caf6609e3e58d0803cf293ae43ac954\transformed\lifecycle-viewmodel-2.2.0-alpha01\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.0.0-beta01] C:\Users\dwkwon\.gradle\caches\transforms-3\c2888fc499899f8df8cbf3e662e445c4\transformed\savedstate-1.0.0-beta01\AndroidManifest.xml:17:1-22:12
+MERGED from [io.reactivex.rxjava2:rxandroid:2.1.1] C:\Users\dwkwon\.gradle\caches\transforms-3\56afbd296d78abe9449b3b7bf2df889a\transformed\rxandroid-2.1.1\AndroidManifest.xml:15:1-20:12
+MERGED from [com.alexvasilkov:gesture-views:2.5.2] C:\Users\dwkwon\.gradle\caches\transforms-3\f96b12aeeaffa15110826bed52bd0566\transformed\jetified-gesture-views-2.5.2\AndroidManifest.xml:2:1-13:12
+INJECTED from C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml:2:1-98:12
+INJECTED from C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml:2:1-98:12
+INJECTED from C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml:2:1-98:12
+	package
+		ADDED from C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml:4:5-32
+		INJECTED from C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml
+		INJECTED from C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml
+		ADDED from C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml:2:1-98:12
+		INJECTED from C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml
+		ADDED from C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml:2:1-98:12
+		INJECTED from C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml:6:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.0] C:\Users\dwkwon\.gradle\caches\transforms-3\6a3476fcbc5c8e67d9d56880f80d32a3\transformed\play-services-measurement-api-17.2.0\AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.0] C:\Users\dwkwon\.gradle\caches\transforms-3\6a3476fcbc5c8e67d9d56880f80d32a3\transformed\play-services-measurement-api-17.2.0\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-iid:20.0.0] C:\Users\dwkwon\.gradle\caches\transforms-3\3eccd392d53190426ca2d0881801885a\transformed\firebase-iid-20.0.0\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:20.0.0] C:\Users\dwkwon\.gradle\caches\transforms-3\3eccd392d53190426ca2d0881801885a\transformed\firebase-iid-20.0.0\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement:17.2.0] C:\Users\dwkwon\.gradle\caches\transforms-3\6cfaffc05d9d0fe0efff6b9a57ba0190\transformed\play-services-measurement-17.2.0\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement:17.2.0] C:\Users\dwkwon\.gradle\caches\transforms-3\6cfaffc05d9d0fe0efff6b9a57ba0190\transformed\play-services-measurement-17.2.0\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.0] C:\Users\dwkwon\.gradle\caches\transforms-3\c4d7d629abfb6be60c94955e27c3929d\transformed\play-services-measurement-impl-17.2.0\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.0] C:\Users\dwkwon\.gradle\caches\transforms-3\c4d7d629abfb6be60c94955e27c3929d\transformed\play-services-measurement-impl-17.2.0\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.0] C:\Users\dwkwon\.gradle\caches\transforms-3\3f26fad70429090d46603131b045ff01\transformed\play-services-measurement-sdk-api-17.2.0\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.0] C:\Users\dwkwon\.gradle\caches\transforms-3\3f26fad70429090d46603131b045ff01\transformed\play-services-measurement-sdk-api-17.2.0\AndroidManifest.xml:23:5-67
+	android:name
+		ADDED from C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml:6:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml:7:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.0] C:\Users\dwkwon\.gradle\caches\transforms-3\6a3476fcbc5c8e67d9d56880f80d32a3\transformed\play-services-measurement-api-17.2.0\AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.0] C:\Users\dwkwon\.gradle\caches\transforms-3\6a3476fcbc5c8e67d9d56880f80d32a3\transformed\play-services-measurement-api-17.2.0\AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-iid:20.0.0] C:\Users\dwkwon\.gradle\caches\transforms-3\3eccd392d53190426ca2d0881801885a\transformed\firebase-iid-20.0.0\AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:20.0.0] C:\Users\dwkwon\.gradle\caches\transforms-3\3eccd392d53190426ca2d0881801885a\transformed\firebase-iid-20.0.0\AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.gms:play-services-measurement:17.2.0] C:\Users\dwkwon\.gradle\caches\transforms-3\6cfaffc05d9d0fe0efff6b9a57ba0190\transformed\play-services-measurement-17.2.0\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement:17.2.0] C:\Users\dwkwon\.gradle\caches\transforms-3\6cfaffc05d9d0fe0efff6b9a57ba0190\transformed\play-services-measurement-17.2.0\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.0] C:\Users\dwkwon\.gradle\caches\transforms-3\c4d7d629abfb6be60c94955e27c3929d\transformed\play-services-measurement-impl-17.2.0\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.0] C:\Users\dwkwon\.gradle\caches\transforms-3\c4d7d629abfb6be60c94955e27c3929d\transformed\play-services-measurement-impl-17.2.0\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.0] C:\Users\dwkwon\.gradle\caches\transforms-3\3f26fad70429090d46603131b045ff01\transformed\play-services-measurement-sdk-api-17.2.0\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.0] C:\Users\dwkwon\.gradle\caches\transforms-3\3f26fad70429090d46603131b045ff01\transformed\play-services-measurement-sdk-api-17.2.0\AndroidManifest.xml:24:5-79
+	android:name
+		ADDED from C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml:7:22-76
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml:8:5-79
+	android:name
+		ADDED from C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml:8:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml:9:5-76
+	android:name
+		ADDED from C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml:9:22-73
+uses-permission#android.permission.WAKE_LOCK
+ADDED from C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml:10:5-68
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.0] C:\Users\dwkwon\.gradle\caches\transforms-3\6a3476fcbc5c8e67d9d56880f80d32a3\transformed\play-services-measurement-api-17.2.0\AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.0] C:\Users\dwkwon\.gradle\caches\transforms-3\6a3476fcbc5c8e67d9d56880f80d32a3\transformed\play-services-measurement-api-17.2.0\AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:20.0.0] C:\Users\dwkwon\.gradle\caches\transforms-3\3eccd392d53190426ca2d0881801885a\transformed\firebase-iid-20.0.0\AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:20.0.0] C:\Users\dwkwon\.gradle\caches\transforms-3\3eccd392d53190426ca2d0881801885a\transformed\firebase-iid-20.0.0\AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement:17.2.0] C:\Users\dwkwon\.gradle\caches\transforms-3\6cfaffc05d9d0fe0efff6b9a57ba0190\transformed\play-services-measurement-17.2.0\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement:17.2.0] C:\Users\dwkwon\.gradle\caches\transforms-3\6cfaffc05d9d0fe0efff6b9a57ba0190\transformed\play-services-measurement-17.2.0\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.0] C:\Users\dwkwon\.gradle\caches\transforms-3\c4d7d629abfb6be60c94955e27c3929d\transformed\play-services-measurement-impl-17.2.0\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.0] C:\Users\dwkwon\.gradle\caches\transforms-3\c4d7d629abfb6be60c94955e27c3929d\transformed\play-services-measurement-impl-17.2.0\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.0] C:\Users\dwkwon\.gradle\caches\transforms-3\3f26fad70429090d46603131b045ff01\transformed\play-services-measurement-sdk-api-17.2.0\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.0] C:\Users\dwkwon\.gradle\caches\transforms-3\3f26fad70429090d46603131b045ff01\transformed\play-services-measurement-sdk-api-17.2.0\AndroidManifest.xml:25:5-68
+	android:name
+		ADDED from C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml:10:22-65
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml:11:5-75
+	android:name
+		ADDED from C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml:11:22-72
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml:12:5-80
+	android:name
+		ADDED from C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml:12:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml:13:5-81
+MERGED from [gun0912.ted:tedimagepicker:1.0.8] C:\Users\dwkwon\.gradle\caches\transforms-3\25624100dbace51f9e54a2b5cac8b87e\transformed\tedimagepicker-1.0.8\AndroidManifest.xml:9:5-81
+MERGED from [gun0912.ted:tedimagepicker:1.0.8] C:\Users\dwkwon\.gradle\caches\transforms-3\25624100dbace51f9e54a2b5cac8b87e\transformed\tedimagepicker-1.0.8\AndroidManifest.xml:9:5-81
+	android:name
+		ADDED from C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml:13:22-78
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml:14:5-82
+MERGED from [com.google.firebase:firebase-iid:20.0.0] C:\Users\dwkwon\.gradle\caches\transforms-3\3eccd392d53190426ca2d0881801885a\transformed\firebase-iid-20.0.0\AndroidManifest.xml:26:5-82
+MERGED from [com.google.firebase:firebase-iid:20.0.0] C:\Users\dwkwon\.gradle\caches\transforms-3\3eccd392d53190426ca2d0881801885a\transformed\firebase-iid-20.0.0\AndroidManifest.xml:26:5-82
+	android:name
+		ADDED from C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml:14:22-79
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml:16:5-81
+	android:name
+		ADDED from C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml:16:22-78
+uses-permission#android.permission.ACCESS_BACKGROUND_LOCATION
+ADDED from C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml:17:5-85
+	android:name
+		ADDED from C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml:17:22-82
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml:18:5-77
+	android:name
+		ADDED from C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml:18:22-74
+uses-feature#android.hardware.location.gps
+ADDED from C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml:19:5-66
+	android:name
+		ADDED from C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml:19:19-63
+permission#com.workerman.app.permission.C2D_MESSAGE
+ADDED from C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml:21:5-23:47
+	android:protectionLevel
+		ADDED from C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml:23:9-44
+	android:name
+		ADDED from C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml:22:9-64
+uses-permission#com.workerman.app.permission.C2D_MESSAGE
+ADDED from C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml:24:5-80
+	android:name
+		ADDED from C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml:24:22-77
+supports-screens
+ADDED from C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml:26:5-30:39
+	android:largeScreens
+		ADDED from C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml:28:9-36
+	android:smallScreens
+		ADDED from C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml:30:9-36
+	android:normalScreens
+		ADDED from C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml:29:9-37
+	android:anyDensity
+		ADDED from C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml:27:9-34
+application
+ADDED from C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml:32:5-96:19
+MERGED from [gun0912.ted:tedimagepicker:1.0.8] C:\Users\dwkwon\.gradle\caches\transforms-3\25624100dbace51f9e54a2b5cac8b87e\transformed\tedimagepicker-1.0.8\AndroidManifest.xml:11:5-28:19
+MERGED from [gun0912.ted:tedimagepicker:1.0.8] C:\Users\dwkwon\.gradle\caches\transforms-3\25624100dbace51f9e54a2b5cac8b87e\transformed\tedimagepicker-1.0.8\AndroidManifest.xml:11:5-28:19
+MERGED from [com.google.android.material:material:1.1.0-alpha07] C:\Users\dwkwon\.gradle\caches\transforms-3\a8f71a60d2484a84f43b2de52dbf0886\transformed\material-1.1.0-alpha07\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.1.0-alpha07] C:\Users\dwkwon\.gradle\caches\transforms-3\a8f71a60d2484a84f43b2de52dbf0886\transformed\material-1.1.0-alpha07\AndroidManifest.xml:22:5-20
+MERGED from [gun0912.ted:tedpermission-rx2:2.2.2] C:\Users\dwkwon\.gradle\caches\transforms-3\de0d81be5a192d317dd46763d7c2980e\transformed\tedpermission-rx2-2.2.2\AndroidManifest.xml:9:5-10:19
+MERGED from [gun0912.ted:tedpermission-rx2:2.2.2] C:\Users\dwkwon\.gradle\caches\transforms-3\de0d81be5a192d317dd46763d7c2980e\transformed\tedpermission-rx2-2.2.2\AndroidManifest.xml:9:5-10:19
+MERGED from [gun0912.ted:tedpermission:2.2.2] C:\Users\dwkwon\.gradle\caches\transforms-3\12b55f93b63249da676dd5e83fc70dd1\transformed\jetified-tedpermission-2.2.2\AndroidManifest.xml:9:5-15:19
+MERGED from [gun0912.ted:tedpermission:2.2.2] C:\Users\dwkwon\.gradle\caches\transforms-3\12b55f93b63249da676dd5e83fc70dd1\transformed\jetified-tedpermission-2.2.2\AndroidManifest.xml:9:5-15:19
+MERGED from [gun0912.ted:tedonactivityresult:1.0.6] C:\Users\dwkwon\.gradle\caches\transforms-3\489b21481a218b67f267fc5d38c49cf2\transformed\jetified-tedonactivityresult-1.0.6\AndroidManifest.xml:9:5-15:19
+MERGED from [gun0912.ted:tedonactivityresult:1.0.6] C:\Users\dwkwon\.gradle\caches\transforms-3\489b21481a218b67f267fc5d38c49cf2\transformed\jetified-tedonactivityresult-1.0.6\AndroidManifest.xml:9:5-15:19
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\dwkwon\.gradle\caches\transforms-3\be659b09f382d9301416a17f4237d600\transformed\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\dwkwon\.gradle\caches\transforms-3\be659b09f382d9301416a17f4237d600\transformed\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
+MERGED from [com.google.firebase:firebase-core:17.2.0] C:\Users\dwkwon\.gradle\caches\transforms-3\47ec0fda0d7db113b6e4bbdf5b2cdb55\transformed\firebase-core-17.2.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-core:17.2.0] C:\Users\dwkwon\.gradle\caches\transforms-3\47ec0fda0d7db113b6e4bbdf5b2cdb55\transformed\firebase-core-17.2.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-messaging:20.0.0] C:\Users\dwkwon\.gradle\caches\transforms-3\2135437e9289ac59488e44ba7c5d3a24\transformed\jetified-firebase-messaging-20.0.0\AndroidManifest.xml:22:5-35:19
+MERGED from [com.google.firebase:firebase-messaging:20.0.0] C:\Users\dwkwon\.gradle\caches\transforms-3\2135437e9289ac59488e44ba7c5d3a24\transformed\jetified-firebase-messaging-20.0.0\AndroidManifest.xml:22:5-35:19
+MERGED from [com.google.firebase:firebase-analytics:17.2.0] C:\Users\dwkwon\.gradle\caches\transforms-3\16a084b38b295f592a12be1910b7fa5f\transformed\firebase-analytics-17.2.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-analytics:17.2.0] C:\Users\dwkwon\.gradle\caches\transforms-3\16a084b38b295f592a12be1910b7fa5f\transformed\firebase-analytics-17.2.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.0] C:\Users\dwkwon\.gradle\caches\transforms-3\6a3476fcbc5c8e67d9d56880f80d32a3\transformed\play-services-measurement-api-17.2.0\AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.0] C:\Users\dwkwon\.gradle\caches\transforms-3\6a3476fcbc5c8e67d9d56880f80d32a3\transformed\play-services-measurement-api-17.2.0\AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.firebase:firebase-iid:20.0.0] C:\Users\dwkwon\.gradle\caches\transforms-3\3eccd392d53190426ca2d0881801885a\transformed\firebase-iid-20.0.0\AndroidManifest.xml:28:5-45:19
+MERGED from [com.google.firebase:firebase-iid:20.0.0] C:\Users\dwkwon\.gradle\caches\transforms-3\3eccd392d53190426ca2d0881801885a\transformed\firebase-iid-20.0.0\AndroidManifest.xml:28:5-45:19
+MERGED from [com.firebase:firebase-jobdispatcher:0.8.5] C:\Users\dwkwon\.gradle\caches\transforms-3\934ae423028259d392cafeb3b9aa2984\transformed\jetified-firebase-jobdispatcher-0.8.5\AndroidManifest.xml:26:5-40:19
+MERGED from [com.firebase:firebase-jobdispatcher:0.8.5] C:\Users\dwkwon\.gradle\caches\transforms-3\934ae423028259d392cafeb3b9aa2984\transformed\jetified-firebase-jobdispatcher-0.8.5\AndroidManifest.xml:26:5-40:19
+MERGED from [com.github.bumptech.glide:glide:4.9.0] C:\Users\dwkwon\.gradle\caches\transforms-3\7a665f67d3fb0dc76023f11387722165\transformed\jetified-glide-4.9.0\AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.9.0] C:\Users\dwkwon\.gradle\caches\transforms-3\7a665f67d3fb0dc76023f11387722165\transformed\jetified-glide-4.9.0\AndroidManifest.xml:10:5-20
+MERGED from [com.google.android.gms:play-services-location:17.0.0] C:\Users\dwkwon\.gradle\caches\transforms-3\5d6d4347f8dca94075b90c644097898a\transformed\play-services-location-17.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:17.0.0] C:\Users\dwkwon\.gradle\caches\transforms-3\5d6d4347f8dca94075b90c644097898a\transformed\play-services-location-17.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement:17.2.0] C:\Users\dwkwon\.gradle\caches\transforms-3\6cfaffc05d9d0fe0efff6b9a57ba0190\transformed\play-services-measurement-17.2.0\AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.android.gms:play-services-measurement:17.2.0] C:\Users\dwkwon\.gradle\caches\transforms-3\6cfaffc05d9d0fe0efff6b9a57ba0190\transformed\play-services-measurement-17.2.0\AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.2.0] C:\Users\dwkwon\.gradle\caches\transforms-3\e5751383ae244b45a5cef1b6ca94d7c9\transformed\play-services-measurement-sdk-17.2.0\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.2.0] C:\Users\dwkwon\.gradle\caches\transforms-3\e5751383ae244b45a5cef1b6ca94d7c9\transformed\play-services-measurement-sdk-17.2.0\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.0] C:\Users\dwkwon\.gradle\caches\transforms-3\c4d7d629abfb6be60c94955e27c3929d\transformed\play-services-measurement-impl-17.2.0\AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.0] C:\Users\dwkwon\.gradle\caches\transforms-3\c4d7d629abfb6be60c94955e27c3929d\transformed\play-services-measurement-impl-17.2.0\AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] C:\Users\dwkwon\.gradle\caches\transforms-3\1823f66592554777832e37397854cf89\transformed\play-services-stats-17.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] C:\Users\dwkwon\.gradle\caches\transforms-3\1823f66592554777832e37397854cf89\transformed\play-services-stats-17.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-common:19.0.0] C:\Users\dwkwon\.gradle\caches\transforms-3\0dd07f728bd2738ce1f52c4a26bfcd78\transformed\firebase-common-19.0.0\AndroidManifest.xml:11:5-17:19
+MERGED from [com.google.firebase:firebase-common:19.0.0] C:\Users\dwkwon\.gradle\caches\transforms-3\0dd07f728bd2738ce1f52c4a26bfcd78\transformed\firebase-common-19.0.0\AndroidManifest.xml:11:5-17:19
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] C:\Users\dwkwon\.gradle\caches\transforms-3\3fd020d250b474ed7afce4ae87cdbb62\transformed\firebase-iid-interop-17.0.0\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] C:\Users\dwkwon\.gradle\caches\transforms-3\3fd020d250b474ed7afce4ae87cdbb62\transformed\firebase-iid-interop-17.0.0\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\dwkwon\.gradle\caches\transforms-3\17c73a141685d1777d4707cfbedfa690\transformed\play-services-base-17.0.0\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\dwkwon\.gradle\caches\transforms-3\17c73a141685d1777d4707cfbedfa690\transformed\play-services-base-17.0.0\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\dwkwon\.gradle\caches\transforms-3\99e89302f14a44db577423b401b97aa4\transformed\play-services-tasks-17.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\dwkwon\.gradle\caches\transforms-3\99e89302f14a44db577423b401b97aa4\transformed\play-services-tasks-17.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] C:\Users\dwkwon\.gradle\caches\transforms-3\41284b6baa81d61c053a4cee7a9e8e2c\transformed\firebase-measurement-connector-18.0.0\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] C:\Users\dwkwon\.gradle\caches\transforms-3\41284b6baa81d61c053a4cee7a9e8e2c\transformed\firebase-measurement-connector-18.0.0\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] C:\Users\dwkwon\.gradle\caches\transforms-3\eb95ec0ea4c6dd36e9a7a55907328d8d\transformed\play-services-places-placereport-17.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] C:\Users\dwkwon\.gradle\caches\transforms-3\eb95ec0ea4c6dd36e9a7a55907328d8d\transformed\play-services-places-placereport-17.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:17.2.0] C:\Users\dwkwon\.gradle\caches\transforms-3\f7f59f01fcd8c054bf3bbf6234b64221\transformed\play-services-measurement-base-17.2.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:17.2.0] C:\Users\dwkwon\.gradle\caches\transforms-3\f7f59f01fcd8c054bf3bbf6234b64221\transformed\play-services-measurement-base-17.2.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] C:\Users\dwkwon\.gradle\caches\transforms-3\438604b05975a11e1b050bad3b6a0b82\transformed\play-services-ads-identifier-17.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] C:\Users\dwkwon\.gradle\caches\transforms-3\438604b05975a11e1b050bad3b6a0b82\transformed\play-services-ads-identifier-17.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\dwkwon\.gradle\caches\transforms-3\d885a441afc54b85c1f2c31960bd7104\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\dwkwon\.gradle\caches\transforms-3\d885a441afc54b85c1f2c31960bd7104\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.core:core:1.1.0-beta01] C:\Users\dwkwon\.gradle\caches\transforms-3\0ccb7a60656095610ec5032beca4e1ed\transformed\core-1.1.0-beta01\AndroidManifest.xml:22:5-89
+MERGED from [androidx.core:core:1.1.0-beta01] C:\Users\dwkwon\.gradle\caches\transforms-3\0ccb7a60656095610ec5032beca4e1ed\transformed\core-1.1.0-beta01\AndroidManifest.xml:22:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0-beta01] C:\Users\dwkwon\.gradle\caches\transforms-3\fd1f29a793e93b9e61ec76229d9cd623\transformed\versionedparcelable-1.1.0-beta01\AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0-beta01] C:\Users\dwkwon\.gradle\caches\transforms-3\fd1f29a793e93b9e61ec76229d9cd623\transformed\versionedparcelable-1.1.0-beta01\AndroidManifest.xml:22:5-23:19
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] C:\Users\dwkwon\.gradle\caches\transforms-3\2bc9e89594356bbad7eb235f6e03b852\transformed\jetified-gifdecoder-4.9.0\AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] C:\Users\dwkwon\.gradle\caches\transforms-3\2bc9e89594356bbad7eb235f6e03b852\transformed\jetified-gifdecoder-4.9.0\AndroidManifest.xml:9:5-20
+MERGED from [com.alexvasilkov:gesture-views:2.5.2] C:\Users\dwkwon\.gradle\caches\transforms-3\f96b12aeeaffa15110826bed52bd0566\transformed\jetified-gesture-views-2.5.2\AndroidManifest.xml:11:5-20
+MERGED from [com.alexvasilkov:gesture-views:2.5.2] C:\Users\dwkwon\.gradle\caches\transforms-3\f96b12aeeaffa15110826bed52bd0566\transformed\jetified-gesture-views-2.5.2\AndroidManifest.xml:11:5-20
+	android:requestLegacyExternalStorage
+		ADDED from C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml:34:9-52
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.1.0-beta01] C:\Users\dwkwon\.gradle\caches\transforms-3\0ccb7a60656095610ec5032beca4e1ed\transformed\core-1.1.0-beta01\AndroidManifest.xml:22:18-86
+	android:label
+		ADDED from C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml:37:9-52
+	android:largeHeap
+		ADDED from C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml:38:9-33
+	android:icon
+		ADDED from C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml:36:9-43
+	android:allowBackup
+		ADDED from C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml:35:9-35
+	android:theme
+		ADDED from C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml:40:9-40
+	android:usesCleartextTraffic
+		ADDED from C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml:39:9-44
+	android:name
+		ADDED from C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml:33:9-62
+activity#com.workerman.app.ui.activity.ActSplash
+ADDED from C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml:41:9-48:20
+	android:screenOrientation
+		ADDED from C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml:43:13-49
+	android:name
+		ADDED from C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml:42:13-67
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml:44:13-47:29
+action#android.intent.action.MAIN
+ADDED from C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml:45:17-69
+	android:name
+		ADDED from C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml:45:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml:46:17-77
+	android:name
+		ADDED from C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml:46:27-74
+activity#com.workerman.app.ui.activity.ActWebView
+ADDED from C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml:49:9-63:20
+	android:screenOrientation
+		ADDED from C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml:52:13-49
+	android:launchMode
+		ADDED from C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml:51:13-44
+	android:windowSoftInputMode
+		ADDED from C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml:54:13-55
+	android:configChanges
+		ADDED from C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml:53:13-59
+	android:name
+		ADDED from C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml:50:13-68
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:scheme:workerman
+ADDED from C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml:55:13-62:29
+action#android.intent.action.VIEW
+ADDED from C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml:56:17-69
+	android:name
+		ADDED from C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml:56:25-66
+category#android.intent.category.DEFAULT
+ADDED from C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml:58:17-76
+	android:name
+		ADDED from C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml:58:27-73
+category#android.intent.category.BROWSABLE
+ADDED from C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml:59:17-78
+	android:name
+		ADDED from C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml:59:27-75
+data
+ADDED from C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml:61:17-52
+	android:scheme
+		ADDED from C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml:61:23-49
+meta-data#com.google.android.gms.version
+ADDED from C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml:65:9-67:69
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\dwkwon\.gradle\caches\transforms-3\d885a441afc54b85c1f2c31960bd7104\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\dwkwon\.gradle\caches\transforms-3\d885a441afc54b85c1f2c31960bd7104\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml:67:13-66
+	android:name
+		ADDED from C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml:66:13-58
+meta-data#com.google.firebase.messaging.default_notification_channel_id
+ADDED from C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml:69:9-71:71
+	android:value
+		ADDED from C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml:71:13-68
+	android:name
+		ADDED from C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml:70:13-89
+service#com.workerman.app.fcm.WorkerManFirebaseMessagingService
+ADDED from C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml:76:9-80:19
+	android:name
+		ADDED from C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml:76:18-88
+intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
+ADDED from C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml:77:13-79:29
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml:78:17-78
+	android:name
+		ADDED from C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml:78:25-75
+service#com.workerman.app.fcm.WorkerManJobService
+ADDED from C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml:82:9-88:19
+	android:exported
+		ADDED from C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml:84:13-37
+	android:name
+		ADDED from C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml:83:13-69
+intent-filter#action:name:com.firebase.jobdispatcher.ACTION_EXECUTE
+ADDED from C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml:85:13-87:29
+action#com.firebase.jobdispatcher.ACTION_EXECUTE
+ADDED from C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml:86:17-84
+	android:name
+		ADDED from C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml:86:25-81
+service#com.workerman.app.service.LocationUpdatesService
+ADDED from C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml:90:9-94:56
+	android:enabled
+		ADDED from C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml:92:13-35
+	android:exported
+		ADDED from C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml:93:13-36
+	android:foregroundServiceType
+		ADDED from C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml:94:13-53
+	android:name
+		ADDED from C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml:91:13-76
+uses-sdk
+INJECTED from C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml
+INJECTED from C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml
+MERGED from [gun0912.ted:tedimagepicker:1.0.8] C:\Users\dwkwon\.gradle\caches\transforms-3\25624100dbace51f9e54a2b5cac8b87e\transformed\tedimagepicker-1.0.8\AndroidManifest.xml:5:5-7:41
+MERGED from [gun0912.ted:tedimagepicker:1.0.8] C:\Users\dwkwon\.gradle\caches\transforms-3\25624100dbace51f9e54a2b5cac8b87e\transformed\tedimagepicker-1.0.8\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.databinding:databinding-adapters:3.5.3] C:\Users\dwkwon\.gradle\caches\transforms-3\b0f8e5d047a3880aa1e03b16f8f80edf\transformed\databinding-adapters-3.5.3\AndroidManifest.xml:22:5-44
+MERGED from [androidx.databinding:databinding-adapters:3.5.3] C:\Users\dwkwon\.gradle\caches\transforms-3\b0f8e5d047a3880aa1e03b16f8f80edf\transformed\databinding-adapters-3.5.3\AndroidManifest.xml:22:5-44
+MERGED from [androidx.databinding:databinding-runtime:3.5.3] C:\Users\dwkwon\.gradle\caches\transforms-3\f87cb58d604af645f3d3433bf1319e2f\transformed\databinding-runtime-3.5.3\AndroidManifest.xml:22:5-44
+MERGED from [androidx.databinding:databinding-runtime:3.5.3] C:\Users\dwkwon\.gradle\caches\transforms-3\f87cb58d604af645f3d3433bf1319e2f\transformed\databinding-runtime-3.5.3\AndroidManifest.xml:22:5-44
+MERGED from [androidx.multidex:multidex:2.0.1] C:\Users\dwkwon\.gradle\caches\transforms-3\c0b9bced6b7a2555dbacae1754f745fc\transformed\multidex-2.0.1\AndroidManifest.xml:20:5-43
+MERGED from [androidx.multidex:multidex:2.0.1] C:\Users\dwkwon\.gradle\caches\transforms-3\c0b9bced6b7a2555dbacae1754f745fc\transformed\multidex-2.0.1\AndroidManifest.xml:20:5-43
+MERGED from [com.jakewharton:butterknife:10.1.0] C:\Users\dwkwon\.gradle\caches\transforms-3\0c12f7386817736a313f099e9df0cc0b\transformed\butterknife-10.1.0\AndroidManifest.xml:5:5-44
+MERGED from [com.jakewharton:butterknife:10.1.0] C:\Users\dwkwon\.gradle\caches\transforms-3\0c12f7386817736a313f099e9df0cc0b\transformed\butterknife-10.1.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.material:material:1.1.0-alpha07] C:\Users\dwkwon\.gradle\caches\transforms-3\a8f71a60d2484a84f43b2de52dbf0886\transformed\material-1.1.0-alpha07\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.1.0-alpha07] C:\Users\dwkwon\.gradle\caches\transforms-3\a8f71a60d2484a84f43b2de52dbf0886\transformed\material-1.1.0-alpha07\AndroidManifest.xml:20:5-44
+MERGED from [gun0912.ted:tedpermission-rx2:2.2.2] C:\Users\dwkwon\.gradle\caches\transforms-3\de0d81be5a192d317dd46763d7c2980e\transformed\tedpermission-rx2-2.2.2\AndroidManifest.xml:5:5-7:41
+MERGED from [gun0912.ted:tedpermission-rx2:2.2.2] C:\Users\dwkwon\.gradle\caches\transforms-3\de0d81be5a192d317dd46763d7c2980e\transformed\tedpermission-rx2-2.2.2\AndroidManifest.xml:5:5-7:41
+MERGED from [gun0912.ted:tedpermission:2.2.2] C:\Users\dwkwon\.gradle\caches\transforms-3\12b55f93b63249da676dd5e83fc70dd1\transformed\jetified-tedpermission-2.2.2\AndroidManifest.xml:5:5-7:41
+MERGED from [gun0912.ted:tedpermission:2.2.2] C:\Users\dwkwon\.gradle\caches\transforms-3\12b55f93b63249da676dd5e83fc70dd1\transformed\jetified-tedpermission-2.2.2\AndroidManifest.xml:5:5-7:41
+MERGED from [gun0912.ted:tedonactivityresult-rx2:1.0.6] C:\Users\dwkwon\.gradle\caches\transforms-3\c09fc20435a98c34adba307e12e65617\transformed\tedonactivityresult-rx2-1.0.6\AndroidManifest.xml:5:5-7:41
+MERGED from [gun0912.ted:tedonactivityresult-rx2:1.0.6] C:\Users\dwkwon\.gradle\caches\transforms-3\c09fc20435a98c34adba307e12e65617\transformed\tedonactivityresult-rx2-1.0.6\AndroidManifest.xml:5:5-7:41
+MERGED from [gun0912.ted:tedonactivityresult:1.0.6] C:\Users\dwkwon\.gradle\caches\transforms-3\489b21481a218b67f267fc5d38c49cf2\transformed\jetified-tedonactivityresult-1.0.6\AndroidManifest.xml:5:5-7:41
+MERGED from [gun0912.ted:tedonactivityresult:1.0.6] C:\Users\dwkwon\.gradle\caches\transforms-3\489b21481a218b67f267fc5d38c49cf2\transformed\jetified-tedonactivityresult-1.0.6\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat:1.1.0-alpha05] C:\Users\dwkwon\.gradle\caches\transforms-3\a77164d5a426b4926ab94dcf6951a7bb\transformed\appcompat-1.1.0-alpha05\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.1.0-alpha05] C:\Users\dwkwon\.gradle\caches\transforms-3\a77164d5a426b4926ab94dcf6951a7bb\transformed\appcompat-1.1.0-alpha05\AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\dwkwon\.gradle\caches\transforms-3\be659b09f382d9301416a17f4237d600\transformed\constraintlayout-1.1.3\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\dwkwon\.gradle\caches\transforms-3\be659b09f382d9301416a17f4237d600\transformed\constraintlayout-1.1.3\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-core:17.2.0] C:\Users\dwkwon\.gradle\caches\transforms-3\47ec0fda0d7db113b6e4bbdf5b2cdb55\transformed\firebase-core-17.2.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-core:17.2.0] C:\Users\dwkwon\.gradle\caches\transforms-3\47ec0fda0d7db113b6e4bbdf5b2cdb55\transformed\firebase-core-17.2.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-messaging:20.0.0] C:\Users\dwkwon\.gradle\caches\transforms-3\2135437e9289ac59488e44ba7c5d3a24\transformed\jetified-firebase-messaging-20.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging:20.0.0] C:\Users\dwkwon\.gradle\caches\transforms-3\2135437e9289ac59488e44ba7c5d3a24\transformed\jetified-firebase-messaging-20.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics:17.2.0] C:\Users\dwkwon\.gradle\caches\transforms-3\16a084b38b295f592a12be1910b7fa5f\transformed\firebase-analytics-17.2.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics:17.2.0] C:\Users\dwkwon\.gradle\caches\transforms-3\16a084b38b295f592a12be1910b7fa5f\transformed\firebase-analytics-17.2.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.0] C:\Users\dwkwon\.gradle\caches\transforms-3\6a3476fcbc5c8e67d9d56880f80d32a3\transformed\play-services-measurement-api-17.2.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.0] C:\Users\dwkwon\.gradle\caches\transforms-3\6a3476fcbc5c8e67d9d56880f80d32a3\transformed\play-services-measurement-api-17.2.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:20.0.0] C:\Users\dwkwon\.gradle\caches\transforms-3\3eccd392d53190426ca2d0881801885a\transformed\firebase-iid-20.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:20.0.0] C:\Users\dwkwon\.gradle\caches\transforms-3\3eccd392d53190426ca2d0881801885a\transformed\firebase-iid-20.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.firebase:firebase-jobdispatcher:0.8.5] C:\Users\dwkwon\.gradle\caches\transforms-3\934ae423028259d392cafeb3b9aa2984\transformed\jetified-firebase-jobdispatcher-0.8.5\AndroidManifest.xml:22:5-24:41
+MERGED from [com.firebase:firebase-jobdispatcher:0.8.5] C:\Users\dwkwon\.gradle\caches\transforms-3\934ae423028259d392cafeb3b9aa2984\transformed\jetified-firebase-jobdispatcher-0.8.5\AndroidManifest.xml:22:5-24:41
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\dwkwon\.gradle\caches\transforms-3\532436af46e18f9ed576088701810153\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\dwkwon\.gradle\caches\transforms-3\532436af46e18f9ed576088701810153\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\dwkwon\.gradle\caches\transforms-3\b799e9eea8d37ee67985be5ff57530af\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\dwkwon\.gradle\caches\transforms-3\b799e9eea8d37ee67985be5ff57530af\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:glide:4.9.0] C:\Users\dwkwon\.gradle\caches\transforms-3\7a665f67d3fb0dc76023f11387722165\transformed\jetified-glide-4.9.0\AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.9.0] C:\Users\dwkwon\.gradle\caches\transforms-3\7a665f67d3fb0dc76023f11387722165\transformed\jetified-glide-4.9.0\AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.android.gms:play-services-location:17.0.0] C:\Users\dwkwon\.gradle\caches\transforms-3\5d6d4347f8dca94075b90c644097898a\transformed\play-services-location-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:17.0.0] C:\Users\dwkwon\.gradle\caches\transforms-3\5d6d4347f8dca94075b90c644097898a\transformed\play-services-location-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.jakewharton:butterknife-runtime:10.1.0] C:\Users\dwkwon\.gradle\caches\transforms-3\bce0788f7d7bce2a56095bacd94b9b42\transformed\butterknife-runtime-10.1.0\AndroidManifest.xml:5:5-44
+MERGED from [com.jakewharton:butterknife-runtime:10.1.0] C:\Users\dwkwon\.gradle\caches\transforms-3\bce0788f7d7bce2a56095bacd94b9b42\transformed\butterknife-runtime-10.1.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement:17.2.0] C:\Users\dwkwon\.gradle\caches\transforms-3\6cfaffc05d9d0fe0efff6b9a57ba0190\transformed\play-services-measurement-17.2.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement:17.2.0] C:\Users\dwkwon\.gradle\caches\transforms-3\6cfaffc05d9d0fe0efff6b9a57ba0190\transformed\play-services-measurement-17.2.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.2.0] C:\Users\dwkwon\.gradle\caches\transforms-3\e5751383ae244b45a5cef1b6ca94d7c9\transformed\play-services-measurement-sdk-17.2.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.2.0] C:\Users\dwkwon\.gradle\caches\transforms-3\e5751383ae244b45a5cef1b6ca94d7c9\transformed\play-services-measurement-sdk-17.2.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.0] C:\Users\dwkwon\.gradle\caches\transforms-3\c4d7d629abfb6be60c94955e27c3929d\transformed\play-services-measurement-impl-17.2.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.0] C:\Users\dwkwon\.gradle\caches\transforms-3\c4d7d629abfb6be60c94955e27c3929d\transformed\play-services-measurement-impl-17.2.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] C:\Users\dwkwon\.gradle\caches\transforms-3\1823f66592554777832e37397854cf89\transformed\play-services-stats-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] C:\Users\dwkwon\.gradle\caches\transforms-3\1823f66592554777832e37397854cf89\transformed\play-services-stats-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\dwkwon\.gradle\caches\transforms-3\a665e70b5adc031eb4fd6bdcff163534\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\dwkwon\.gradle\caches\transforms-3\a665e70b5adc031eb4fd6bdcff163534\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-common:19.0.0] C:\Users\dwkwon\.gradle\caches\transforms-3\0dd07f728bd2738ce1f52c4a26bfcd78\transformed\firebase-common-19.0.0\AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-common:19.0.0] C:\Users\dwkwon\.gradle\caches\transforms-3\0dd07f728bd2738ce1f52c4a26bfcd78\transformed\firebase-common-19.0.0\AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] C:\Users\dwkwon\.gradle\caches\transforms-3\3fd020d250b474ed7afce4ae87cdbb62\transformed\firebase-iid-interop-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] C:\Users\dwkwon\.gradle\caches\transforms-3\3fd020d250b474ed7afce4ae87cdbb62\transformed\firebase-iid-interop-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\dwkwon\.gradle\caches\transforms-3\17c73a141685d1777d4707cfbedfa690\transformed\play-services-base-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\dwkwon\.gradle\caches\transforms-3\17c73a141685d1777d4707cfbedfa690\transformed\play-services-base-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\dwkwon\.gradle\caches\transforms-3\99e89302f14a44db577423b401b97aa4\transformed\play-services-tasks-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\dwkwon\.gradle\caches\transforms-3\99e89302f14a44db577423b401b97aa4\transformed\play-services-tasks-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] C:\Users\dwkwon\.gradle\caches\transforms-3\41284b6baa81d61c053a4cee7a9e8e2c\transformed\firebase-measurement-connector-18.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] C:\Users\dwkwon\.gradle\caches\transforms-3\41284b6baa81d61c053a4cee7a9e8e2c\transformed\firebase-measurement-connector-18.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] C:\Users\dwkwon\.gradle\caches\transforms-3\eb95ec0ea4c6dd36e9a7a55907328d8d\transformed\play-services-places-placereport-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] C:\Users\dwkwon\.gradle\caches\transforms-3\eb95ec0ea4c6dd36e9a7a55907328d8d\transformed\play-services-places-placereport-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.0] C:\Users\dwkwon\.gradle\caches\transforms-3\3f26fad70429090d46603131b045ff01\transformed\play-services-measurement-sdk-api-17.2.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.0] C:\Users\dwkwon\.gradle\caches\transforms-3\3f26fad70429090d46603131b045ff01\transformed\play-services-measurement-sdk-api-17.2.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:17.2.0] C:\Users\dwkwon\.gradle\caches\transforms-3\f7f59f01fcd8c054bf3bbf6234b64221\transformed\play-services-measurement-base-17.2.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:17.2.0] C:\Users\dwkwon\.gradle\caches\transforms-3\f7f59f01fcd8c054bf3bbf6234b64221\transformed\play-services-measurement-base-17.2.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] C:\Users\dwkwon\.gradle\caches\transforms-3\438604b05975a11e1b050bad3b6a0b82\transformed\play-services-ads-identifier-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] C:\Users\dwkwon\.gradle\caches\transforms-3\438604b05975a11e1b050bad3b6a0b82\transformed\play-services-ads-identifier-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\dwkwon\.gradle\caches\transforms-3\d885a441afc54b85c1f2c31960bd7104\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\dwkwon\.gradle\caches\transforms-3\d885a441afc54b85c1f2c31960bd7104\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0-alpha04] C:\Users\dwkwon\.gradle\caches\transforms-3\5a712a03e27876ed6f2547192ab123af\transformed\viewpager2-1.0.0-alpha04\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0-alpha04] C:\Users\dwkwon\.gradle\caches\transforms-3\5a712a03e27876ed6f2547192ab123af\transformed\viewpager2-1.0.0-alpha04\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.1.0-alpha08] C:\Users\dwkwon\.gradle\caches\transforms-3\8bf5c0ae5d974f6238083b9f2fde2c3b\transformed\fragment-1.1.0-alpha08\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.1.0-alpha08] C:\Users\dwkwon\.gradle\caches\transforms-3\8bf5c0ae5d974f6238083b9f2fde2c3b\transformed\fragment-1.1.0-alpha08\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\dwkwon\.gradle\caches\transforms-3\d80370a39347cc254153318b08d6266e\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\dwkwon\.gradle\caches\transforms-3\d80370a39347cc254153318b08d6266e\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0-alpha05] C:\Users\dwkwon\.gradle\caches\transforms-3\c55484f6d123a27a83a49b7df4ee43d9\transformed\appcompat-resources-1.1.0-alpha05\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0-alpha05] C:\Users\dwkwon\.gradle\caches\transforms-3\c55484f6d123a27a83a49b7df4ee43d9\transformed\appcompat-resources-1.1.0-alpha05\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0-beta01] C:\Users\dwkwon\.gradle\caches\transforms-3\fd38d8c3cf3611af769444ef9a5f937a\transformed\vectordrawable-animated-1.1.0-beta01\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0-beta01] C:\Users\dwkwon\.gradle\caches\transforms-3\fd38d8c3cf3611af769444ef9a5f937a\transformed\vectordrawable-animated-1.1.0-beta01\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0-beta01] C:\Users\dwkwon\.gradle\caches\transforms-3\8b0039e7c1219d843821f38c62007bed\transformed\vectordrawable-1.1.0-beta01\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0-beta01] C:\Users\dwkwon\.gradle\caches\transforms-3\8b0039e7c1219d843821f38c62007bed\transformed\vectordrawable-1.1.0-beta01\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0-alpha01] C:\Users\dwkwon\.gradle\caches\transforms-3\272234e05477e56fabbe3715c86610ab\transformed\coordinatorlayout-1.1.0-alpha01\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0-alpha01] C:\Users\dwkwon\.gradle\caches\transforms-3\272234e05477e56fabbe3715c86610ab\transformed\coordinatorlayout-1.1.0-alpha01\AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.1] C:\Users\dwkwon\.gradle\caches\transforms-3\59c227c12da030e37d0eafadad29f5c1\transformed\transition-1.0.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.1] C:\Users\dwkwon\.gradle\caches\transforms-3\59c227c12da030e37d0eafadad29f5c1\transformed\transition-1.0.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\dwkwon\.gradle\caches\transforms-3\ffa4b9f8856882b73c37a0b026e442ee\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\dwkwon\.gradle\caches\transforms-3\ffa4b9f8856882b73c37a0b026e442ee\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\dwkwon\.gradle\caches\transforms-3\bce9c2619d4ead27c7371cca3f09eff8\transformed\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\dwkwon\.gradle\caches\transforms-3\bce9c2619d4ead27c7371cca3f09eff8\transformed\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\dwkwon\.gradle\caches\transforms-3\952a7a521ca03b096143814d81592802\transformed\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\dwkwon\.gradle\caches\transforms-3\952a7a521ca03b096143814d81592802\transformed\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0-alpha05] C:\Users\dwkwon\.gradle\caches\transforms-3\25d485433fd44ea65376c90a83fb7e80\transformed\recyclerview-1.1.0-alpha05\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0-alpha05] C:\Users\dwkwon\.gradle\caches\transforms-3\25d485433fd44ea65376c90a83fb7e80\transformed\recyclerview-1.1.0-alpha05\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\dwkwon\.gradle\caches\transforms-3\4507d7fe2530bd042aafefd5bac65076\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\dwkwon\.gradle\caches\transforms-3\4507d7fe2530bd042aafefd5bac65076\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\dwkwon\.gradle\caches\transforms-3\509276fad37d620819b308145d86d674\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\dwkwon\.gradle\caches\transforms-3\509276fad37d620819b308145d86d674\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0-alpha08] C:\Users\dwkwon\.gradle\caches\transforms-3\2692e6607fb0ea804d4a0264d70f943e\transformed\activity-1.0.0-alpha08\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0-alpha08] C:\Users\dwkwon\.gradle\caches\transforms-3\2692e6607fb0ea804d4a0264d70f943e\transformed\activity-1.0.0-alpha08\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.1.0-beta01] C:\Users\dwkwon\.gradle\caches\transforms-3\0ccb7a60656095610ec5032beca4e1ed\transformed\core-1.1.0-beta01\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.1.0-beta01] C:\Users\dwkwon\.gradle\caches\transforms-3\0ccb7a60656095610ec5032beca4e1ed\transformed\core-1.1.0-beta01\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0-alpha01] C:\Users\dwkwon\.gradle\caches\transforms-3\8d270bc41873be0c10abfeae58090092\transformed\lifecycle-runtime-2.2.0-alpha01\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0-alpha01] C:\Users\dwkwon\.gradle\caches\transforms-3\8d270bc41873be0c10abfeae58090092\transformed\lifecycle-runtime-2.2.0-alpha01\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0-beta01] C:\Users\dwkwon\.gradle\caches\transforms-3\fd1f29a793e93b9e61ec76229d9cd623\transformed\versionedparcelable-1.1.0-beta01\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0-beta01] C:\Users\dwkwon\.gradle\caches\transforms-3\fd1f29a793e93b9e61ec76229d9cd623\transformed\versionedparcelable-1.1.0-beta01\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\dwkwon\.gradle\caches\transforms-3\5a2c028cc7ec8c9d1613228cd5959868\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\dwkwon\.gradle\caches\transforms-3\5a2c028cc7ec8c9d1613228cd5959868\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] C:\Users\dwkwon\.gradle\caches\transforms-3\2bc9e89594356bbad7eb235f6e03b852\transformed\jetified-gifdecoder-4.9.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] C:\Users\dwkwon\.gradle\caches\transforms-3\2bc9e89594356bbad7eb235f6e03b852\transformed\jetified-gifdecoder-4.9.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\dwkwon\.gradle\caches\transforms-3\eadbed5a476c0f05f7db2b1f2ecbf510\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\dwkwon\.gradle\caches\transforms-3\eadbed5a476c0f05f7db2b1f2ecbf510\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\dwkwon\.gradle\caches\transforms-3\453889c0f871f3f6d8e54de1136cdeb8\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\dwkwon\.gradle\caches\transforms-3\453889c0f871f3f6d8e54de1136cdeb8\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\dwkwon\.gradle\caches\transforms-3\7674bf3de44b564393057575483a5cf2\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\dwkwon\.gradle\caches\transforms-3\7674bf3de44b564393057575483a5cf2\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\dwkwon\.gradle\caches\transforms-3\403a3fae2f3a8fcb1bc093f87583a19f\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\dwkwon\.gradle\caches\transforms-3\403a3fae2f3a8fcb1bc093f87583a19f\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\dwkwon\.gradle\caches\transforms-3\839e34bff0c353cf557b096a7a2bdfa5\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\dwkwon\.gradle\caches\transforms-3\839e34bff0c353cf557b096a7a2bdfa5\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\dwkwon\.gradle\caches\transforms-3\2143d4a926cae5cbbc8af645fde6b42e\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\dwkwon\.gradle\caches\transforms-3\2143d4a926cae5cbbc8af645fde6b42e\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\dwkwon\.gradle\caches\transforms-3\9b4e3167144b117c6945e8a1894530fa\transformed\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\dwkwon\.gradle\caches\transforms-3\9b4e3167144b117c6945e8a1894530fa\transformed\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\dwkwon\.gradle\caches\transforms-3\bed42421c5a0559c9cc46be1dd2a45d7\transformed\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\dwkwon\.gradle\caches\transforms-3\bed42421c5a0559c9cc46be1dd2a45d7\transformed\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0-alpha01] C:\Users\dwkwon\.gradle\caches\transforms-3\5caf6609e3e58d0803cf293ae43ac954\transformed\lifecycle-viewmodel-2.2.0-alpha01\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0-alpha01] C:\Users\dwkwon\.gradle\caches\transforms-3\5caf6609e3e58d0803cf293ae43ac954\transformed\lifecycle-viewmodel-2.2.0-alpha01\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.0.0-beta01] C:\Users\dwkwon\.gradle\caches\transforms-3\c2888fc499899f8df8cbf3e662e445c4\transformed\savedstate-1.0.0-beta01\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.0.0-beta01] C:\Users\dwkwon\.gradle\caches\transforms-3\c2888fc499899f8df8cbf3e662e445c4\transformed\savedstate-1.0.0-beta01\AndroidManifest.xml:20:5-44
+MERGED from [io.reactivex.rxjava2:rxandroid:2.1.1] C:\Users\dwkwon\.gradle\caches\transforms-3\56afbd296d78abe9449b3b7bf2df889a\transformed\rxandroid-2.1.1\AndroidManifest.xml:18:5-43
+MERGED from [io.reactivex.rxjava2:rxandroid:2.1.1] C:\Users\dwkwon\.gradle\caches\transforms-3\56afbd296d78abe9449b3b7bf2df889a\transformed\rxandroid-2.1.1\AndroidManifest.xml:18:5-43
+MERGED from [com.alexvasilkov:gesture-views:2.5.2] C:\Users\dwkwon\.gradle\caches\transforms-3\f96b12aeeaffa15110826bed52bd0566\transformed\jetified-gesture-views-2.5.2\AndroidManifest.xml:7:5-9:41
+MERGED from [com.alexvasilkov:gesture-views:2.5.2] C:\Users\dwkwon\.gradle\caches\transforms-3\f96b12aeeaffa15110826bed52bd0566\transformed\jetified-gesture-views-2.5.2\AndroidManifest.xml:7:5-9:41
+INJECTED from C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml
+INJECTED from C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml
+		ADDED from C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml
+		INJECTED from C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml
+		ADDED from C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml
+		INJECTED from C:\projects\tools\workspace\WorkerManApp\app\src\main\AndroidManifest.xml
+activity#gun0912.tedimagepicker.TedImagePickerActivity
+ADDED from [gun0912.ted:tedimagepicker:1.0.8] C:\Users\dwkwon\.gradle\caches\transforms-3\25624100dbace51f9e54a2b5cac8b87e\transformed\tedimagepicker-1.0.8\AndroidManifest.xml:12:9-14:58
+	android:theme
+		ADDED from [gun0912.ted:tedimagepicker:1.0.8] C:\Users\dwkwon\.gradle\caches\transforms-3\25624100dbace51f9e54a2b5cac8b87e\transformed\tedimagepicker-1.0.8\AndroidManifest.xml:14:13-55
+	android:name
+		ADDED from [gun0912.ted:tedimagepicker:1.0.8] C:\Users\dwkwon\.gradle\caches\transforms-3\25624100dbace51f9e54a2b5cac8b87e\transformed\tedimagepicker-1.0.8\AndroidManifest.xml:13:13-73
+activity#gun0912.tedimagepicker.zoom.TedImageZoomActivity
+ADDED from [gun0912.ted:tedimagepicker:1.0.8] C:\Users\dwkwon\.gradle\caches\transforms-3\25624100dbace51f9e54a2b5cac8b87e\transformed\tedimagepicker-1.0.8\AndroidManifest.xml:15:9-17:63
+	android:theme
+		ADDED from [gun0912.ted:tedimagepicker:1.0.8] C:\Users\dwkwon\.gradle\caches\transforms-3\25624100dbace51f9e54a2b5cac8b87e\transformed\tedimagepicker-1.0.8\AndroidManifest.xml:17:13-60
+	android:name
+		ADDED from [gun0912.ted:tedimagepicker:1.0.8] C:\Users\dwkwon\.gradle\caches\transforms-3\25624100dbace51f9e54a2b5cac8b87e\transformed\tedimagepicker-1.0.8\AndroidManifest.xml:16:13-76
+provider#androidx.core.content.FileProvider
+ADDED from [gun0912.ted:tedimagepicker:1.0.8] C:\Users\dwkwon\.gradle\caches\transforms-3\25624100dbace51f9e54a2b5cac8b87e\transformed\tedimagepicker-1.0.8\AndroidManifest.xml:19:9-27:20
+	android:grantUriPermissions
+		ADDED from [gun0912.ted:tedimagepicker:1.0.8] C:\Users\dwkwon\.gradle\caches\transforms-3\25624100dbace51f9e54a2b5cac8b87e\transformed\tedimagepicker-1.0.8\AndroidManifest.xml:23:13-47
+	android:authorities
+		ADDED from [gun0912.ted:tedimagepicker:1.0.8] C:\Users\dwkwon\.gradle\caches\transforms-3\25624100dbace51f9e54a2b5cac8b87e\transformed\tedimagepicker-1.0.8\AndroidManifest.xml:21:13-60
+	android:exported
+		ADDED from [gun0912.ted:tedimagepicker:1.0.8] C:\Users\dwkwon\.gradle\caches\transforms-3\25624100dbace51f9e54a2b5cac8b87e\transformed\tedimagepicker-1.0.8\AndroidManifest.xml:22:13-37
+	android:name
+		ADDED from [gun0912.ted:tedimagepicker:1.0.8] C:\Users\dwkwon\.gradle\caches\transforms-3\25624100dbace51f9e54a2b5cac8b87e\transformed\tedimagepicker-1.0.8\AndroidManifest.xml:20:13-62
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from [gun0912.ted:tedimagepicker:1.0.8] C:\Users\dwkwon\.gradle\caches\transforms-3\25624100dbace51f9e54a2b5cac8b87e\transformed\tedimagepicker-1.0.8\AndroidManifest.xml:24:13-26:58
+	android:resource
+		ADDED from [gun0912.ted:tedimagepicker:1.0.8] C:\Users\dwkwon\.gradle\caches\transforms-3\25624100dbace51f9e54a2b5cac8b87e\transformed\tedimagepicker-1.0.8\AndroidManifest.xml:26:17-55
+	android:name
+		ADDED from [gun0912.ted:tedimagepicker:1.0.8] C:\Users\dwkwon\.gradle\caches\transforms-3\25624100dbace51f9e54a2b5cac8b87e\transformed\tedimagepicker-1.0.8\AndroidManifest.xml:25:17-67
+activity#com.gun0912.tedpermission.TedPermissionActivity
+ADDED from [gun0912.ted:tedpermission:2.2.2] C:\Users\dwkwon\.gradle\caches\transforms-3\12b55f93b63249da676dd5e83fc70dd1\transformed\jetified-tedpermission-2.2.2\AndroidManifest.xml:10:9-14:67
+	android:screenOrientation
+		ADDED from [gun0912.ted:tedpermission:2.2.2] C:\Users\dwkwon\.gradle\caches\transforms-3\12b55f93b63249da676dd5e83fc70dd1\transformed\jetified-tedpermission-2.2.2\AndroidManifest.xml:13:13-52
+	android:configChanges
+		ADDED from [gun0912.ted:tedpermission:2.2.2] C:\Users\dwkwon\.gradle\caches\transforms-3\12b55f93b63249da676dd5e83fc70dd1\transformed\jetified-tedpermission-2.2.2\AndroidManifest.xml:12:13-144
+	android:theme
+		ADDED from [gun0912.ted:tedpermission:2.2.2] C:\Users\dwkwon\.gradle\caches\transforms-3\12b55f93b63249da676dd5e83fc70dd1\transformed\jetified-tedpermission-2.2.2\AndroidManifest.xml:14:13-64
+	android:name
+		ADDED from [gun0912.ted:tedpermission:2.2.2] C:\Users\dwkwon\.gradle\caches\transforms-3\12b55f93b63249da676dd5e83fc70dd1\transformed\jetified-tedpermission-2.2.2\AndroidManifest.xml:11:13-75
+activity#com.gun0912.tedonactivityresult.ProxyActivity
+ADDED from [gun0912.ted:tedonactivityresult:1.0.6] C:\Users\dwkwon\.gradle\caches\transforms-3\489b21481a218b67f267fc5d38c49cf2\transformed\jetified-tedonactivityresult-1.0.6\AndroidManifest.xml:10:9-14:75
+	android:screenOrientation
+		ADDED from [gun0912.ted:tedonactivityresult:1.0.6] C:\Users\dwkwon\.gradle\caches\transforms-3\489b21481a218b67f267fc5d38c49cf2\transformed\jetified-tedonactivityresult-1.0.6\AndroidManifest.xml:13:13-52
+	android:configChanges
+		ADDED from [gun0912.ted:tedonactivityresult:1.0.6] C:\Users\dwkwon\.gradle\caches\transforms-3\489b21481a218b67f267fc5d38c49cf2\transformed\jetified-tedonactivityresult-1.0.6\AndroidManifest.xml:12:13-144
+	android:theme
+		ADDED from [gun0912.ted:tedonactivityresult:1.0.6] C:\Users\dwkwon\.gradle\caches\transforms-3\489b21481a218b67f267fc5d38c49cf2\transformed\jetified-tedonactivityresult-1.0.6\AndroidManifest.xml:14:13-72
+	android:name
+		ADDED from [gun0912.ted:tedonactivityresult:1.0.6] C:\Users\dwkwon\.gradle\caches\transforms-3\489b21481a218b67f267fc5d38c49cf2\transformed\jetified-tedonactivityresult-1.0.6\AndroidManifest.xml:11:13-73
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:20.0.0] C:\Users\dwkwon\.gradle\caches\transforms-3\2135437e9289ac59488e44ba7c5d3a24\transformed\jetified-firebase-messaging-20.0.0\AndroidManifest.xml:28:9-34:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:20.0.0] C:\Users\dwkwon\.gradle\caches\transforms-3\2135437e9289ac59488e44ba7c5d3a24\transformed\jetified-firebase-messaging-20.0.0\AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:20.0.0] C:\Users\dwkwon\.gradle\caches\transforms-3\2135437e9289ac59488e44ba7c5d3a24\transformed\jetified-firebase-messaging-20.0.0\AndroidManifest.xml:29:13-82
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.android.gms:play-services-measurement-api:17.2.0] C:\Users\dwkwon\.gradle\caches\transforms-3\6a3476fcbc5c8e67d9d56880f80d32a3\transformed\play-services-measurement-api-17.2.0\AndroidManifest.xml:27:9-33:19
+MERGED from [com.google.firebase:firebase-iid:20.0.0] C:\Users\dwkwon\.gradle\caches\transforms-3\3eccd392d53190426ca2d0881801885a\transformed\firebase-iid-20.0.0\AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-iid:20.0.0] C:\Users\dwkwon\.gradle\caches\transforms-3\3eccd392d53190426ca2d0881801885a\transformed\firebase-iid-20.0.0\AndroidManifest.xml:29:9-35:19
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement-api:17.2.0] C:\Users\dwkwon\.gradle\caches\transforms-3\6a3476fcbc5c8e67d9d56880f80d32a3\transformed\play-services-measurement-api-17.2.0\AndroidManifest.xml:29:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:17.2.0] C:\Users\dwkwon\.gradle\caches\transforms-3\6a3476fcbc5c8e67d9d56880f80d32a3\transformed\play-services-measurement-api-17.2.0\AndroidManifest.xml:28:13-84
+meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
+ADDED from [com.google.android.gms:play-services-measurement-api:17.2.0] C:\Users\dwkwon\.gradle\caches\transforms-3\6a3476fcbc5c8e67d9d56880f80d32a3\transformed\play-services-measurement-api-17.2.0\AndroidManifest.xml:30:13-32:85
+	android:value
+		ADDED from [com.google.android.gms:play-services-measurement-api:17.2.0] C:\Users\dwkwon\.gradle\caches\transforms-3\6a3476fcbc5c8e67d9d56880f80d32a3\transformed\play-services-measurement-api-17.2.0\AndroidManifest.xml:32:17-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:17.2.0] C:\Users\dwkwon\.gradle\caches\transforms-3\6a3476fcbc5c8e67d9d56880f80d32a3\transformed\play-services-measurement-api-17.2.0\AndroidManifest.xml:31:17-139
+meta-data#com.google.firebase.components:com.google.firebase.iid.Registrar
+ADDED from [com.google.firebase:firebase-iid:20.0.0] C:\Users\dwkwon\.gradle\caches\transforms-3\3eccd392d53190426ca2d0881801885a\transformed\firebase-iid-20.0.0\AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-iid:20.0.0] C:\Users\dwkwon\.gradle\caches\transforms-3\3eccd392d53190426ca2d0881801885a\transformed\firebase-iid-20.0.0\AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:20.0.0] C:\Users\dwkwon\.gradle\caches\transforms-3\3eccd392d53190426ca2d0881801885a\transformed\firebase-iid-20.0.0\AndroidManifest.xml:33:17-96
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:20.0.0] C:\Users\dwkwon\.gradle\caches\transforms-3\3eccd392d53190426ca2d0881801885a\transformed\firebase-iid-20.0.0\AndroidManifest.xml:37:9-44:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:20.0.0] C:\Users\dwkwon\.gradle\caches\transforms-3\3eccd392d53190426ca2d0881801885a\transformed\firebase-iid-20.0.0\AndroidManifest.xml:39:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:20.0.0] C:\Users\dwkwon\.gradle\caches\transforms-3\3eccd392d53190426ca2d0881801885a\transformed\firebase-iid-20.0.0\AndroidManifest.xml:40:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:20.0.0] C:\Users\dwkwon\.gradle\caches\transforms-3\3eccd392d53190426ca2d0881801885a\transformed\firebase-iid-20.0.0\AndroidManifest.xml:38:13-78
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:20.0.0] C:\Users\dwkwon\.gradle\caches\transforms-3\3eccd392d53190426ca2d0881801885a\transformed\firebase-iid-20.0.0\AndroidManifest.xml:41:13-43:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:20.0.0] C:\Users\dwkwon\.gradle\caches\transforms-3\3eccd392d53190426ca2d0881801885a\transformed\firebase-iid-20.0.0\AndroidManifest.xml:42:17-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:20.0.0] C:\Users\dwkwon\.gradle\caches\transforms-3\3eccd392d53190426ca2d0881801885a\transformed\firebase-iid-20.0.0\AndroidManifest.xml:42:25-78
+service#com.firebase.jobdispatcher.GooglePlayReceiver
+ADDED from [com.firebase:firebase-jobdispatcher:0.8.5] C:\Users\dwkwon\.gradle\caches\transforms-3\934ae423028259d392cafeb3b9aa2984\transformed\jetified-firebase-jobdispatcher-0.8.5\AndroidManifest.xml:32:9-39:19
+	android:exported
+		ADDED from [com.firebase:firebase-jobdispatcher:0.8.5] C:\Users\dwkwon\.gradle\caches\transforms-3\934ae423028259d392cafeb3b9aa2984\transformed\jetified-firebase-jobdispatcher-0.8.5\AndroidManifest.xml:34:13-36
+	android:permission
+		ADDED from [com.firebase:firebase-jobdispatcher:0.8.5] C:\Users\dwkwon\.gradle\caches\transforms-3\934ae423028259d392cafeb3b9aa2984\transformed\jetified-firebase-jobdispatcher-0.8.5\AndroidManifest.xml:35:13-93
+	android:name
+		ADDED from [com.firebase:firebase-jobdispatcher:0.8.5] C:\Users\dwkwon\.gradle\caches\transforms-3\934ae423028259d392cafeb3b9aa2984\transformed\jetified-firebase-jobdispatcher-0.8.5\AndroidManifest.xml:33:13-73
+intent-filter#action:name:com.google.android.gms.gcm.ACTION_TASK_READY
+ADDED from [com.firebase:firebase-jobdispatcher:0.8.5] C:\Users\dwkwon\.gradle\caches\transforms-3\934ae423028259d392cafeb3b9aa2984\transformed\jetified-firebase-jobdispatcher-0.8.5\AndroidManifest.xml:36:13-38:29
+action#com.google.android.gms.gcm.ACTION_TASK_READY
+ADDED from [com.firebase:firebase-jobdispatcher:0.8.5] C:\Users\dwkwon\.gradle\caches\transforms-3\934ae423028259d392cafeb3b9aa2984\transformed\jetified-firebase-jobdispatcher-0.8.5\AndroidManifest.xml:37:17-87
+	android:name
+		ADDED from [com.firebase:firebase-jobdispatcher:0.8.5] C:\Users\dwkwon\.gradle\caches\transforms-3\934ae423028259d392cafeb3b9aa2984\transformed\jetified-firebase-jobdispatcher-0.8.5\AndroidManifest.xml:37:25-84
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [com.google.android.gms:play-services-measurement:17.2.0] C:\Users\dwkwon\.gradle\caches\transforms-3\6cfaffc05d9d0fe0efff6b9a57ba0190\transformed\play-services-measurement-17.2.0\AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.0] C:\Users\dwkwon\.gradle\caches\transforms-3\c4d7d629abfb6be60c94955e27c3929d\transformed\play-services-measurement-impl-17.2.0\AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.0] C:\Users\dwkwon\.gradle\caches\transforms-3\c4d7d629abfb6be60c94955e27c3929d\transformed\play-services-measurement-impl-17.2.0\AndroidManifest.xml:26:5-110
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.0] C:\Users\dwkwon\.gradle\caches\transforms-3\6cfaffc05d9d0fe0efff6b9a57ba0190\transformed\play-services-measurement-17.2.0\AndroidManifest.xml:26:22-107
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.android.gms:play-services-measurement:17.2.0] C:\Users\dwkwon\.gradle\caches\transforms-3\6cfaffc05d9d0fe0efff6b9a57ba0190\transformed\play-services-measurement-17.2.0\AndroidManifest.xml:29:9-33:20
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.0] C:\Users\dwkwon\.gradle\caches\transforms-3\6cfaffc05d9d0fe0efff6b9a57ba0190\transformed\play-services-measurement-17.2.0\AndroidManifest.xml:31:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.0] C:\Users\dwkwon\.gradle\caches\transforms-3\6cfaffc05d9d0fe0efff6b9a57ba0190\transformed\play-services-measurement-17.2.0\AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.0] C:\Users\dwkwon\.gradle\caches\transforms-3\6cfaffc05d9d0fe0efff6b9a57ba0190\transformed\play-services-measurement-17.2.0\AndroidManifest.xml:30:13-85
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.android.gms:play-services-measurement:17.2.0] C:\Users\dwkwon\.gradle\caches\transforms-3\6cfaffc05d9d0fe0efff6b9a57ba0190\transformed\play-services-measurement-17.2.0\AndroidManifest.xml:34:9-42:20
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.0] C:\Users\dwkwon\.gradle\caches\transforms-3\c4d7d629abfb6be60c94955e27c3929d\transformed\play-services-measurement-impl-17.2.0\AndroidManifest.xml:29:9-37:20
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.0] C:\Users\dwkwon\.gradle\caches\transforms-3\c4d7d629abfb6be60c94955e27c3929d\transformed\play-services-measurement-impl-17.2.0\AndroidManifest.xml:29:9-37:20
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.0] C:\Users\dwkwon\.gradle\caches\transforms-3\6cfaffc05d9d0fe0efff6b9a57ba0190\transformed\play-services-measurement-17.2.0\AndroidManifest.xml:36:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.0] C:\Users\dwkwon\.gradle\caches\transforms-3\6cfaffc05d9d0fe0efff6b9a57ba0190\transformed\play-services-measurement-17.2.0\AndroidManifest.xml:37:13-36
+	android:permission
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.0] C:\Users\dwkwon\.gradle\caches\transforms-3\6cfaffc05d9d0fe0efff6b9a57ba0190\transformed\play-services-measurement-17.2.0\AndroidManifest.xml:38:13-69
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.0] C:\Users\dwkwon\.gradle\caches\transforms-3\6cfaffc05d9d0fe0efff6b9a57ba0190\transformed\play-services-measurement-17.2.0\AndroidManifest.xml:35:13-100
+intent-filter#action:name:com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.android.gms:play-services-measurement:17.2.0] C:\Users\dwkwon\.gradle\caches\transforms-3\6cfaffc05d9d0fe0efff6b9a57ba0190\transformed\play-services-measurement-17.2.0\AndroidManifest.xml:39:13-41:29
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.android.gms:play-services-measurement:17.2.0] C:\Users\dwkwon\.gradle\caches\transforms-3\6cfaffc05d9d0fe0efff6b9a57ba0190\transformed\play-services-measurement-17.2.0\AndroidManifest.xml:40:17-79
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.0] C:\Users\dwkwon\.gradle\caches\transforms-3\6cfaffc05d9d0fe0efff6b9a57ba0190\transformed\play-services-measurement-17.2.0\AndroidManifest.xml:40:25-76
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.android.gms:play-services-measurement:17.2.0] C:\Users\dwkwon\.gradle\caches\transforms-3\6cfaffc05d9d0fe0efff6b9a57ba0190\transformed\play-services-measurement-17.2.0\AndroidManifest.xml:44:9-47:40
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.0] C:\Users\dwkwon\.gradle\caches\transforms-3\6cfaffc05d9d0fe0efff6b9a57ba0190\transformed\play-services-measurement-17.2.0\AndroidManifest.xml:46:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.0] C:\Users\dwkwon\.gradle\caches\transforms-3\6cfaffc05d9d0fe0efff6b9a57ba0190\transformed\play-services-measurement-17.2.0\AndroidManifest.xml:47:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.0] C:\Users\dwkwon\.gradle\caches\transforms-3\6cfaffc05d9d0fe0efff6b9a57ba0190\transformed\play-services-measurement-17.2.0\AndroidManifest.xml:45:13-84
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.android.gms:play-services-measurement:17.2.0] C:\Users\dwkwon\.gradle\caches\transforms-3\6cfaffc05d9d0fe0efff6b9a57ba0190\transformed\play-services-measurement-17.2.0\AndroidManifest.xml:48:9-52:72
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.0] C:\Users\dwkwon\.gradle\caches\transforms-3\6cfaffc05d9d0fe0efff6b9a57ba0190\transformed\play-services-measurement-17.2.0\AndroidManifest.xml:50:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.0] C:\Users\dwkwon\.gradle\caches\transforms-3\6cfaffc05d9d0fe0efff6b9a57ba0190\transformed\play-services-measurement-17.2.0\AndroidManifest.xml:51:13-37
+	android:permission
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.0] C:\Users\dwkwon\.gradle\caches\transforms-3\6cfaffc05d9d0fe0efff6b9a57ba0190\transformed\play-services-measurement-17.2.0\AndroidManifest.xml:52:13-69
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.0] C:\Users\dwkwon\.gradle\caches\transforms-3\6cfaffc05d9d0fe0efff6b9a57ba0190\transformed\play-services-measurement-17.2.0\AndroidManifest.xml:49:13-87
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:19.0.0] C:\Users\dwkwon\.gradle\caches\transforms-3\0dd07f728bd2738ce1f52c4a26bfcd78\transformed\firebase-common-19.0.0\AndroidManifest.xml:12:9-16:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:19.0.0] C:\Users\dwkwon\.gradle\caches\transforms-3\0dd07f728bd2738ce1f52c4a26bfcd78\transformed\firebase-common-19.0.0\AndroidManifest.xml:14:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:19.0.0] C:\Users\dwkwon\.gradle\caches\transforms-3\0dd07f728bd2738ce1f52c4a26bfcd78\transformed\firebase-common-19.0.0\AndroidManifest.xml:15:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:19.0.0] C:\Users\dwkwon\.gradle\caches\transforms-3\0dd07f728bd2738ce1f52c4a26bfcd78\transformed\firebase-common-19.0.0\AndroidManifest.xml:16:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:19.0.0] C:\Users\dwkwon\.gradle\caches\transforms-3\0dd07f728bd2738ce1f52c4a26bfcd78\transformed\firebase-common-19.0.0\AndroidManifest.xml:13:13-77
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\dwkwon\.gradle\caches\transforms-3\17c73a141685d1777d4707cfbedfa690\transformed\play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\dwkwon\.gradle\caches\transforms-3\17c73a141685d1777d4707cfbedfa690\transformed\play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\dwkwon\.gradle\caches\transforms-3\17c73a141685d1777d4707cfbedfa690\transformed\play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\dwkwon\.gradle\caches\transforms-3\17c73a141685d1777d4707cfbedfa690\transformed\play-services-base-17.0.0\AndroidManifest.xml:24:13-79

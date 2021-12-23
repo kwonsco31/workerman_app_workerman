@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme. -->
+
+    <style name="text_color_white_16sp">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="TransProgressDialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowTitleStyle">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:background">@android:color/transparent</item>
+        <!-- <item name="android:windowNoTitle">true</item> -->
+    </style>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="android:actionModeBackground">@color/blue_grey_600</item>
+    </style>
+
+    <style name="CustomTabTextAppearance" parent="@android:style/TextAppearance.Widget.TabWidget">
+        <item name="android:singleLine">true</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="DrawerArrowStyle" parent="Widget.AppCompat.DrawerArrowToggle">
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="spinBars">true</item>
+        <item name="color">@android:color/white</item>
+    </style>
+
+    <!-- KSTAR 추가분-->
+    <style name="Button.Accent" parent="@style/Widget.AppCompat.Button.Colored">
+        <item name="colorButtonNormal">@color/colorAccent</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <!--<style name="RippleStyleBlack" parent="RippleStyleWhite">
+        <item name="mrl_rippleColor">#8096989A</item>
+    </style>
+
+    &lt;!&ndash;style for ripple library&ndash;&gt;
+    <style name="RippleStyleWhite">
+        <item name="mrl_rippleOverlay">true</item>
+        <item name="mrl_rippleColor">#80FFFFFF</item>
+        <item name="mrl_rippleHover">true</item>
+        <item name="mrl_rippleAlpha">0.2</item>
+    </style>-->
+    <style name="DialogFragmentStyle" parent="@android:style/Theme.Dialog">
+        <item name="android:windowSoftInputMode">stateHidden|adjustResize</item>
+    </style>
+
+    <style name="EditTextStyle" parent="Widget.AppCompat.EditText">
+        <item name="colorControlNormal">@android:color/black</item>
+        <item name="colorControlActivated">@color/common_base_yellow_color_ffd200</item>
+        <!--<item name="android:textCursorDrawable">@color/indigo500</item>-->
+        <!--<item name="android:textColor">@color/orange500</item>-->
+        <item name="android:textColorHint">@color/common_txt_hint_color_aaaaaa</item>
+
+       <!-- colorControlActivated	손끝으로 터치되어 있는 부분. text selection handle라고 부른다고 한다
+        colorControlNormal	        포커스 되어있지 않은 경우의 밑줄 부분
+        colorControlActivated	    포커스시의 밑줄 부분. Tint 되어있어 지정한 색보다 약간 투명이 적용되어있고, 길게 누르면 지정한 색이된다.
+        android:textColorHighlight	텍스트 선택색
+        android:textColorHint	    입력전의 Hint (포커스 Holder)
+        android:textColor	        텍스트 색
+        android:textCursorDrawable	커서 색. drawable 지정되지만, 색을 설정하는것도 된다-->
+    </style>
+
+    <style name="ErrorText" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/pink_ff5257</item>
+    </style>
+
+    <style name="SuccessText" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/color_skyblue_00a0e9</item>
+    </style>
+
+   <!-- <style name="TextInputLayoutAppearance" parent="Widget.Design.TextInputLayout">
+        &lt;!&ndash; reference our hint & error styles &ndash;&gt;
+        <item name="hintTextAppearance">@style/HintText</item>
+        <item name="errorTextAppearance">@style/ErrorText</item>
+        <item name="android:textColor">@color/user_input_color</item>
+        <item name="android:textColorHint">@color/unfocused_color</item>
+        <item name="colorControlNormal">@color/white</item>
+        <item name="colorControlActivated">@color/blue</item>
+        <item name="colorControlHighlight">@color/green</item>
+    </style>-->
+    <style name="Toolbar.Light" parent="@style/AppTheme">
+        <item name="colorControlNormal">@color/grey_60</item>
+        <item name="android:textColorPrimary">@color/grey_60</item>
+    </style>
+</resources>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+<!--    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+
+        &lt;!&ndash; Customize your theme here. &ndash;&gt;
+        <item name="android:homeAsUpIndicator">@drawable/selector_btn_appbar_menu</item>
+        <item name="drawerArrowStyle">@style/DrawerArrowStyle</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        &lt;!&ndash; colorPrimary is used for the default action bar background &ndash;&gt;
+        <item name="windowActionModeOverlay">false</item>
+
+        <item name="android:statusBarColor">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primaryDark</item>
+        <item name="android:textColorPrimary">@color/textPrimary</item>
+        &lt;!&ndash;<item name="android:windowDrawsSystemBarBackgrounds">true</item>&ndash;&gt;
+        &lt;!&ndash;<item name="android:windowTranslucentStatus">false</item>&ndash;&gt;
+    </style>-->
+
+ <!--   <style name="Theme.DesignTheme" parent="Base.Theme.DesignTheme">
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>-->
+
+    <style name="AppTheme_TranslucentStatus" parent="Base.Theme.TranslucentStatus">
+
+        <!-- Customize your theme here. -->
+        <!--<item name="android:homeAsUpIndicator">@drawable/selector_btn_appbar_menu</item>-->
+        <!--<item name="drawerArrowStyle">@style/DrawerArrowStyle</item>-->
+        <!--<item name="windowActionBar">true</item>-->
+        <!--<item name="windowNoTitle">true</item>-->
+        <!-- colorPrimary is used for the default action bar background -->
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+
+    <style name="NoAniNotitleBarTranslucent" parent="android:Theme">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation</item>
+
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowActionModeOverlay">true</item>
+
+    </style>
+
+    <style name="NotitleBarTranslucent" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+
+        <item name="android:textColorPrimary">@color/textPrimary</item>
+        <item name="android:statusBarColor">@color/common_base_color_ef5aa2</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:windowTranslucentStatus">false</item>
+        <item name="android:windowActionModeOverlay">false</item>
+        <item name="android:colorPrimary">@color/primary</item>
+
+
+    </style>
+
+    <style name="NotitleBarTranslucentSplash" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+
+        <item name="android:textColorPrimary">@color/textPrimary</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:windowTranslucentStatus">false</item>
+        <item name="android:windowActionModeOverlay">false</item>
+        <item name="android:colorPrimary">@color/primary</item>
+
+
+    </style>
+
+</resources>

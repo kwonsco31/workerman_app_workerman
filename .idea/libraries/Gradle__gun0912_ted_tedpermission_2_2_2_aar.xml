@@ -1,0 +1,27 @@
+<component name="libraryTable">
+  <library name="Gradle: gun0912.ted:tedpermission:2.2.2@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/4c6c21d9c3c4cf39b324880cda6d7075/transformed/jetified-tedpermission-2.2.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/4c6c21d9c3c4cf39b324880cda6d7075/transformed/jetified-tedpermission-2.2.2/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/4c6c21d9c3c4cf39b324880cda6d7075/transformed/jetified-tedpermission-2.2.2/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/d31c0afff940ac64516341935dac5020/transformed/jetified-tedpermission-2.2.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/d31c0afff940ac64516341935dac5020/transformed/jetified-tedpermission-2.2.2/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/d31c0afff940ac64516341935dac5020/transformed/jetified-tedpermission-2.2.2/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/83df2dd76a4ece377f68e08cb366da61/transformed/jetified-tedpermission-2.2.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/83df2dd76a4ece377f68e08cb366da61/transformed/jetified-tedpermission-2.2.2/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/83df2dd76a4ece377f68e08cb366da61/transformed/jetified-tedpermission-2.2.2/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/12b55f93b63249da676dd5e83fc70dd1/transformed/jetified-tedpermission-2.2.2/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/12b55f93b63249da676dd5e83fc70dd1/transformed/jetified-tedpermission-2.2.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/12b55f93b63249da676dd5e83fc70dd1/transformed/jetified-tedpermission-2.2.2/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/474fb6e90a2330762ef040c4a650e7be/transformed/jetified-tedpermission-2.2.2/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/474fb6e90a2330762ef040c4a650e7be/transformed/jetified-tedpermission-2.2.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/474fb6e90a2330762ef040c4a650e7be/transformed/jetified-tedpermission-2.2.2/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/gun0912.ted/tedpermission/2.2.2/227ab3f6a67c4a857736004a433d8c829093e2fe/tedpermission-2.2.2-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/gun0912.ted/tedpermission/2.2.2/af4efec7e041ee468f46c1f2dff6bf76dd449bd1/tedpermission-2.2.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
